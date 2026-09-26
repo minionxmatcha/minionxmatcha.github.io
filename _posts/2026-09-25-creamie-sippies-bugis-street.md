@@ -40,7 +40,7 @@ date: 2026-09-25
 }
 </script>
 
-Creamie Sippies has officially opened a takeaway spot on Level 2 of Bugis Street (#02-115, 261 Victoria Street). Operating as a compact corner stall, the location features two separate counters: a **Banana Pudding Bar** and a **Mini Matcha Bar**.
+Creamie Sippies has officially opened a takeaway spot on Level 2 of Bugis Street (#02-115, 261 Victoria Street)[cite: 6]. Operating as a compact corner stall, the location features two separate counters: a **Banana Pudding Bar** and a **Mini Matcha Bar**[cite: 4].
 
 Here is the complete menu, customisation pricing, and outlet details before you go.
 
@@ -48,12 +48,24 @@ Here is the complete menu, customisation pricing, and outlet details before you 
 
 ### Watch the Video Preview
 
-<div style="display: flex; flex-direction: column; gap: 20px; align-items: center; max-width: 420px; margin: 0 auto 28px;">
+<div style="display: flex; flex-direction: column; gap: 24px; align-items: center; max-width: 420px; margin: 0 auto 30px;">
 
-  <!-- YouTube Shorts Player (Keeps your Google Video Badge Active) -->
+  <!-- Primary: Instagram Reel Hero Embed -->
   <div style="width: 100%; text-align: center;">
-    <h4 style="margin: 0 0 10px; font-size: 15px; color: #555;">YouTube Shorts</h4>
-    <div style="position: relative; width: 100%; aspect-ratio: 9/16; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DdoJahIOl5y/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:12px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 0 auto; max-width: 360px; min-width: 280px; padding: 0; width: 100%;"></blockquote>
+    <script async src="//www.instagram.com/embed.js"></script>
+
+    <div style="margin-top: 14px;">
+      <a href="https://www.instagram.com/reel/DdoJahIOl5y/" target="_blank" rel="noopener" style="display: inline-block; padding: 10px 20px; background-color: #E1306C; color: #ffffff; border-radius: 8px; font-size: 14px; text-decoration: none; font-weight: 600;">
+        Follow & Watch on Instagram
+      </a>
+    </div>
+  </div>
+
+  <!-- Secondary: YouTube Shorts Embed (Keeps your Google Video Search Badge) -->
+  <div style="width: 100%; text-align: center; margin-top: 16px; border-top: 1px solid #eee; padding-top: 20px;">
+    <p style="margin: 0 0 12px; font-size: 13px; color: #666; font-weight: 500;">Alternative Player (YouTube Shorts):</p>
+    <div style="position: relative; width: 100%; max-width: 320px; margin: 0 auto; aspect-ratio: 9/16; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
       <iframe 
         src="https://www.youtube.com/embed/451B9Z1lQJc" 
         title="Creamie Sippies Bugis Street Video Preview" 
@@ -64,18 +76,11 @@ Here is the complete menu, customisation pricing, and outlet details before you 
     </div>
   </div>
 
-  <!-- Instagram Reel Embed -->
-  <div style="width: 100%; text-align: center;">
-    <h4 style="margin: 16px 0 10px; font-size: 15px; color: #555;">Instagram Reel</h4>
-    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DdoJahIOl5y/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:12px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 0 auto; max-width: 360px; min-width: 280px; padding: 0; width: 100%;"></blockquote>
-    <script async src="//www.instagram.com/embed.js"></script>
-  </div>
-
-  <!-- Direct Platform Action Buttons -->
-  <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; width: 100%; margin-top: 10px;">
-    <a href="https://www.instagram.com/reel/DdoJahIOl5y/" target="_blank" rel="noopener" style="padding: 8px 14px; border: 1px solid #ddd; border-radius: 8px; font-size: 13px; text-decoration: none; color: #333; font-weight: 500;">Open on Instagram</a>
-    <a href="https://vt.tiktok.com/ZSb8p6HVk/" target="_blank" rel="noopener" style="padding: 8px 14px; border: 1px solid #ddd; border-radius: 8px; font-size: 13px; text-decoration: none; color: #333; font-weight: 500;">Open on TikTok</a>
-    <a href="https://youtube.com/shorts/451B9Z1lQJc" target="_blank" rel="noopener" style="padding: 8px 14px; border: 1px solid #ddd; border-radius: 8px; font-size: 13px; text-decoration: none; color: #333; font-weight: 500;">Open on YouTube</a>
+  <!-- Other Platforms -->
+  <div style="margin-top: 8px;">
+    <a href="https://vt.tiktok.com/ZSb8p6HVk/" target="_blank" rel="noopener" style="font-size: 13px; color: #555; text-decoration: underline;">
+      Watch on TikTok instead →
+    </a>
   </div>
 
 </div>
@@ -84,34 +89,34 @@ Here is the complete menu, customisation pricing, and outlet details before you 
 
 ### Banana Pudding Bar
 
-Pudding scoops can be ordered in cups with toppings or served inside a warm waffle taco:
+Pudding scoops can be ordered in cups with toppings or served inside a warm waffle taco[cite: 4, 6]:
 
-* **1 Scoop:** $4.50
-* **1 Scoop + 2 Toppings:** $5.90
-* **2 Scoops + 3 Toppings:** $6.90
-* **Banana Pudding Waffle:** $6.90
+* **1 Scoop:** $4.50[cite: 4]
+* **1 Scoop + 2 Toppings:** $5.90[cite: 4]
+* **2 Scoops + 3 Toppings:** $6.90[cite: 4]
+* **Banana Pudding Waffle:** $6.90[cite: 4]
 
 #### Customisation & Toppings:
-* **Crunches:** Lotus Biscoff Crumbs, KitKat Crumble, Oreo Crumbs, Rainbow Rice, Rainbow Sprinkles
-* **Bites:** Choco Balls, Mini Marshmallows, KitKat Balls
-* **Sauces & Drizzles:** Lotus Biscoff Sauce, Choco Sauce
+* **Crunches:** Lotus Biscoff Crumbs, KitKat Crumble, Oreo Crumbs, Rainbow Rice, Rainbow Sprinkles[cite: 4]
+* **Bites:** Choco Balls, Mini Marshmallows, KitKat Balls[cite: 4]
+* **Sauces & Drizzles:** Lotus Biscoff Sauce, Choco Sauce[cite: 4]
 
 ---
 
 ### Mini Matcha Bar
 
-Fresh bamboo-whisked drinks prepared on the spot:
+Fresh bamboo-whisked drinks prepared on the spot[cite: 4]:
 
-* **Classic Matcha Latte:** $5.00
-* **Strawberry Matcha Latte:** $5.90
+* **Classic Matcha Latte:** $5.00[cite: 4]
+* **Strawberry Matcha Latte:** $5.90[cite: 4]
 
-*(Note: Other Creamie Sippies outlets—like their [Jewel Changi Airport flagship](/2026/01/25/creamie-sippies-jewel-changi-airport.html)—serve the full extended drink and pie menu, while this Bugis location features a curated mini matcha bar).*
+*(Note: Other Creamie Sippies outlets—like their [Jewel Changi Airport flagship](/2026/01/25/creamie-sippies-jewel-changi-airport.html)—serve the full extended drink and pie menu, while this Bugis location features a curated mini matcha bar[cite: 4]).*
 
 ---
 
 ### Store Information
 
-* **Address:** 261 Victoria Street, #02-115, Bugis Street Level 2
-* **Operating Hours:** Daily 12:00 PM – 8:00 PM (Last order 7:30 PM)
-* **Format:** Takeaway corner stall (no dine-in seats)
-* **Official Opening:** 25 September 2026
+* **Address:** 261 Victoria Street, #02-115, Bugis Street Level 2[cite: 6]
+* **Operating Hours:** Daily 12:00 PM – 8:00 PM (Last order 7:30 PM)[cite: 6]
+* **Format:** Takeaway corner stall (no dine-in seats)[cite: 4]
+* **Official Opening:** 25 September 2026[cite: 4, 6]
