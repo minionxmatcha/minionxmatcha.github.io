@@ -48,20 +48,37 @@ Here is the complete menu, customisation pricing, and outlet details before you 
 
 ### Watch the Video Preview
 
-<div style="position: relative; width: 100%; max-width: 360px; margin: 0 auto 20px; aspect-ratio: 9/16;">
-  <iframe 
-    src="https://www.youtube.com/embed/451B9Z1lQJc" 
-    title="Creamie Sippies Bugis Street Video Preview" 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 12px;" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
-</div>
+<div style="display: flex; flex-direction: column; gap: 20px; align-items: center; max-width: 420px; margin: 0 auto 28px;">
 
-**Prefer another platform? Watch the clip on:**
-* [Watch on Instagram Reel](https://www.instagram.com/reel/DdoJahIOl5y/)
-* [Watch on TikTok](https://vt.tiktok.com/ZSb8p6HVk/)
-* [Watch on YouTube Shorts](https://youtube.com/shorts/451B9Z1lQJc)
+  <!-- YouTube Shorts Player (Keeps your Google Video Badge Active) -->
+  <div style="width: 100%; text-align: center;">
+    <h4 style="margin: 0 0 10px; font-size: 15px; color: #555;">YouTube Shorts</h4>
+    <div style="position: relative; width: 100%; aspect-ratio: 9/16; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+      <iframe 
+        src="https://www.youtube.com/embed/451B9Z1lQJc" 
+        title="Creamie Sippies Bugis Street Video Preview" 
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+
+  <!-- Instagram Reel Embed -->
+  <div style="width: 100%; text-align: center;">
+    <h4 style="margin: 16px 0 10px; font-size: 15px; color: #555;">Instagram Reel</h4>
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DdoJahIOl5y/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:12px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 0 auto; max-width: 360px; min-width: 280px; padding: 0; width: 100%;"></blockquote>
+    <script async src="//www.instagram.com/embed.js"></script>
+  </div>
+
+  <!-- Direct Platform Action Buttons -->
+  <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; width: 100%; margin-top: 10px;">
+    <a href="https://www.instagram.com/reel/DdoJahIOl5y/" target="_blank" rel="noopener" style="padding: 8px 14px; border: 1px solid #ddd; border-radius: 8px; font-size: 13px; text-decoration: none; color: #333; font-weight: 500;">Open on Instagram</a>
+    <a href="https://vt.tiktok.com/ZSb8p6HVk/" target="_blank" rel="noopener" style="padding: 8px 14px; border: 1px solid #ddd; border-radius: 8px; font-size: 13px; text-decoration: none; color: #333; font-weight: 500;">Open on TikTok</a>
+    <a href="https://youtube.com/shorts/451B9Z1lQJc" target="_blank" rel="noopener" style="padding: 8px 14px; border: 1px solid #ddd; border-radius: 8px; font-size: 13px; text-decoration: none; color: #333; font-weight: 500;">Open on YouTube</a>
+  </div>
+
+</div>
 
 ---
 
@@ -88,7 +105,7 @@ Fresh bamboo-whisked drinks prepared on the spot:
 * **Classic Matcha Latte:** $5.00
 * **Strawberry Matcha Latte:** $5.90
 
-*(Note: Other Creamie Sippies outlets serve their full extended drink menu, while this Bugis location features a curated mini matcha bar).*
+*(Note: Other Creamie Sippies outlets—like their [Jewel Changi Airport flagship](/2026/01/25/creamie-sippies-jewel-changi-airport.html)—serve the full extended drink and pie menu, while this Bugis location features a curated mini matcha bar).*
 
 ---
 
