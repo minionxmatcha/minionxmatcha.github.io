@@ -19,11 +19,16 @@ date: 2026-09-25
     <a href="https://www.tiktok.com/@minionxmatcha" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; padding: 7px 14px; background: #000000; color: #ffffff; font-size: 12px; font-weight: 600; text-decoration: none; border-radius: 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
       TikTok
     </a>
+    <a href="https://www.facebook.com/p/Minionxmatcha-61592062657121/" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; padding: 7px 14px; background: #1877F2; color: #ffffff; font-size: 12px; font-weight: 600; text-decoration: none; border-radius: 20px; box-shadow: 0 2px 6px rgba(24,119,242,0.25);">
+      Facebook
+    </a>
     <a href="https://www.youtube.com/@minionxmatcha" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; padding: 7px 14px; background: #FF0000; color: #ffffff; font-size: 12px; font-weight: 600; text-decoration: none; border-radius: 20px; box-shadow: 0 2px 6px rgba(255,0,0,0.2);">
       YouTube
     </a>
   </div>
 </div>
+
+# Creamie Sippies Bugis Street: Full Menu & Store Guide
 
 <script type="application/ld+json">
 {
@@ -61,7 +66,7 @@ date: 2026-09-25
 }
 </script>
 
-Creamie Sippies has officially opened a takeaway spot on Level 2 of Bugis Street (#02-115, 261 Victoria Street)[span_0](start_span)[span_0](end_span). Operating as a compact corner stall, the location features two separate counters: a **Banana Pudding Bar** and a **Mini Matcha Bar**[span_1](start_span)[span_1](end_span).
+Creamie Sippies has officially opened a takeaway spot on Level 2 of Bugis Street (#02-115, 261 Victoria Street). Operating as a compact corner stall, the location features two separate counters: a **Banana Pudding Bar** and a **Mini Matcha Bar**.
 
 Here is the complete menu, customisation pricing, and outlet details before you go.
 
@@ -98,9 +103,13 @@ Here is the complete menu, customisation pricing, and outlet details before you 
   </div>
 
   <!-- Other Platforms -->
-  <div style="margin-top: 8px;">
+  <div style="display: flex; gap: 14px; justify-content: center; margin-top: 8px;">
     <a href="https://vt.tiktok.com/ZSb8p6HVk/" target="_blank" rel="noopener" style="font-size: 13px; color: #555; text-decoration: underline;">
-      Watch on TikTok instead →
+      Watch on TikTok
+    </a>
+    <span style="color: #ccc;">•</span>
+    <a href="https://www.facebook.com/p/Minionxmatcha-61592062657121/" target="_blank" rel="noopener" style="font-size: 13px; color: #1877F2; text-decoration: underline;">
+      Visit on Facebook
     </a>
   </div>
 
@@ -110,34 +119,34 @@ Here is the complete menu, customisation pricing, and outlet details before you 
 
 ### Banana Pudding Bar
 
-Pudding scoops can be ordered in cups with toppings or served inside a warm waffle taco[span_2](start_span)[span_2](end_span)[span_3](start_span)[span_3](end_span):
+Pudding scoops can be ordered in cups with toppings or served inside a warm waffle taco:
 
-* **1 Scoop:** $4.50[span_4](start_span)[span_4](end_span)
-* **1 Scoop + 2 Toppings:** $5.90[span_5](start_span)[span_5](end_span)
-* **2 Scoops + 3 Toppings:** $6.90[span_6](start_span)[span_6](end_span)
-* **Banana Pudding Waffle:** $6.90[span_7](start_span)[span_7](end_span)
+* **1 Scoop:** $4.50
+* **1 Scoop + 2 Toppings:** $5.90
+* **2 Scoops + 3 Toppings:** $6.90
+* **Banana Pudding Waffle:** $6.90
 
 #### Customisation & Toppings:
-* **Crunches:** Lotus Biscoff Crumbs, KitKat Crumble, Oreo Crumbs, Rainbow Rice, Rainbow Sprinkles[span_8](start_span)[span_8](end_span)
-* **Bites:** Choco Balls, Mini Marshmallows, KitKat Balls[span_9](start_span)[span_9](end_span)
-* **Sauces & Drizzles:** Lotus Biscoff Sauce, Choco Sauce[span_10](start_span)[span_10](end_span)
+* **Crunches:** Lotus Biscoff Crumbs, KitKat Crumble, Oreo Crumbs, Rainbow Rice, Rainbow Sprinkles
+* **Bites:** Choco Balls, Mini Marshmallows, KitKat Balls
+* **Sauces & Drizzles:** Lotus Biscoff Sauce, Choco Sauce
 
 ---
 
 ### Mini Matcha Bar
 
-Fresh bamboo-whisked drinks prepared on the spot[span_11](start_span)[span_11](end_span):
+Fresh bamboo-whisked drinks prepared on the spot:
 
-* **Classic Matcha Latte:** $5.00[span_12](start_span)[span_12](end_span)
-* **Strawberry Matcha Latte:** $5.90[span_13](start_span)[span_13](end_span)
+* **Classic Matcha Latte:** $5.00
+* **Strawberry Matcha Latte:** $5.90
 
-*(Note: Other Creamie Sippies outlets—like their [Jewel Changi Airport flagship](/2026/01/25/creamie-sippies-jewel-changi-airport.html)—serve the full extended drink and pie menu, while this Bugis location features a curated mini matcha bar[span_14](start_span)[span_14](end_span)).*
+*(Note: Other Creamie Sippies outlets—like their [Jewel Changi Airport flagship](/2026/01/25/creamie-sippies-jewel-changi-airport.html)—serve the full extended drink and pie menu, while this Bugis location features a curated mini matcha bar).*
 
 ---
 
 ### Store Information
 
-* **Address:** 261 Victoria Street, #02-115, Bugis Street Level 2[span_15](start_span)[span_15](end_span)
-* **Operating Hours:** Daily 12:00 PM – 8:00 PM (Last order 7:30 PM)[span_16](start_span)[span_16](end_span)
-* **Format:** Takeaway corner stall (no dine-in seats)[span_17](start_span)[span_17](end_span)
-* **Official Opening:** 25 September 2026[span_18](start_span)[span_18](end_span)[span_19](start_span)[span_19](end_span)
+* **Address:** 261 Victoria Street, #02-115, Bugis Street Level 2
+* **Operating Hours:** Daily 12:00 PM – 8:00 PM (Last order 7:30 PM)
+* **Format:** Takeaway corner stall (no dine-in seats)
+* **Official Opening:** 25 September 2026
