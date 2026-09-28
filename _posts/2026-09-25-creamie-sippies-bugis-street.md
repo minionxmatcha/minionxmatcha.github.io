@@ -32,16 +32,32 @@ date: 2026-09-25
 
   /* Brand strip */
   .cs-brand {
-    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px;
-    padding: 12px 16px; margin: 8px 0 28px;
-    border: 2px solid var(--ink); border-radius: 999px; background: #fff;
+    position: relative; overflow: hidden;
+    display: grid; grid-template-columns: auto 1fr; align-items: center; column-gap: 16px;
+    padding: 18px 20px 18px 22px; margin: 8px 6px 32px 0;
+    border: 2px solid var(--ink); border-radius: 24px; background: var(--banana);
+    box-shadow: 6px 6px 0 var(--ink);
   }
-  .cs-brand-name { font-family: var(--display); font-weight: 800; font-size: 18px; }
-  .cs-brand-name small { display: block; font-family: var(--body); font-weight: 400; font-size: 12px; color: #6b6550; }
+  /* Goggle strap running in from the left edge */
+  .cs-brand::before {
+    content: ""; position: absolute; left: 0; top: 50%; width: 60px; height: 14px;
+    transform: translateY(-50%); background: var(--ink);
+  }
+  /* The goggle itself, with the matcha bowl as the eye */
+  .cs-goggle {
+    position: relative; z-index: 1;
+    width: 72px; height: 72px; border-radius: 50%;
+    display: grid; place-items: center; font-size: 34px; line-height: 1;
+    background: #fff; border: 7px solid #A7ADB4;
+    box-shadow: 0 0 0 2px var(--ink), inset 0 0 0 2px var(--ink);
+  }
+  .cs-brand-text { min-width: 0; }
+  .cs-brand-name { font-family: var(--display); font-weight: 800; font-size: 24px; line-height: 1.1; }
+  .cs-tagline { margin: 2px 0 12px !important; font-size: 13px; color: #4d4418; }
   .cs-social { display: flex; flex-wrap: wrap; gap: 6px; }
   .cs .cs-social a {
-    padding: 6px 12px; border-radius: 999px; font-size: 12px; font-weight: 700;
-    color: #fff; text-decoration: none;
+    padding: 6px 13px; border-radius: 999px; font-size: 12px; font-weight: 700;
+    color: #fff; text-decoration: none; border: 2px solid var(--ink);
   }
   .cs-ig { background: #E1306C; } .cs-tt { background: #000; } .cs-fb { background: #1877F2; } .cs-yt { background: #FF0000; }
 
@@ -118,7 +134,10 @@ date: 2026-09-25
   }
 
   @media (max-width: 520px) {
-    .cs-brand { border-radius: 22px; }
+    .cs-brand { column-gap: 12px; padding: 16px 16px 16px 18px; }
+    .cs-goggle { width: 58px; height: 58px; font-size: 26px; border-width: 6px; }
+    .cs-brand::before { width: 40px; height: 11px; }
+    .cs-brand-name { font-size: 20px; }
     .cs-counters { grid-template-columns: 1fr; }
     .cs-counter + .cs-counter { border-left: 0; border-top: 2px solid var(--ink); }
     .cs-info dl { grid-template-columns: 1fr; gap: 2px; }
@@ -166,13 +185,17 @@ date: 2026-09-25
 
   <!-- Brand strip -->
   <div class="cs-brand">
-    <div class="cs-brand-name">🍵 minionxmatcha<small>Matcha reviews, cafe walkthroughs & tea guides in Singapore</small></div>
+    <div class="cs-goggle" aria-hidden="true">🍵</div>
+    <div class="cs-brand-text">
+    <div class="cs-brand-name">minionxmatcha</div>
+    <p class="cs-tagline">Matcha reviews, cafe walkthroughs & tea guides in Singapore</p>
     <nav class="cs-social" aria-label="minionxmatcha on social media">
       <a class="cs-ig" href="https://www.instagram.com/minionxmatcha" target="_blank" rel="noopener">Instagram</a>
       <a class="cs-tt" href="https://www.tiktok.com/@minionxmatcha" target="_blank" rel="noopener">TikTok</a>
       <a class="cs-fb" href="https://www.facebook.com/p/Minionxmatcha-61592062657121/" target="_blank" rel="noopener">Facebook</a>
       <a class="cs-yt" href="https://www.youtube.com/@minionxmatcha" target="_blank" rel="noopener">YouTube</a>
     </nav>
+    </div>
   </div>
 
   <!-- Hero: one stall, two counters -->
