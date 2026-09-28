@@ -4,6 +4,29 @@ title: "Creamie Sippies Jewel Changi Airport: Nitro Matcha, Houjicha & Pie Revie
 date: 2026-01-25
 ---
 
+<!-- TOP BRAND & SOCIAL PROFILE BANNER -->
+<div style="background: #ffffff; border: 1px solid #eaeaea; border-radius: 14px; padding: 18px 20px; margin: 10px auto 25px auto; max-width: 580px; box-shadow: 0 4px 14px rgba(0,0,0,0.04); text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <div style="font-size: 20px; font-weight: 700; color: #1a1a1a; letter-spacing: -0.3px; margin-bottom: 4px;">
+    🍵 minionxmatcha
+  </div>
+  <p style="margin: 0 0 14px 0; font-size: 13px; color: #666; line-height: 1.4;">
+    Matcha reviews, cafe walkthroughs & tea guides in Singapore.
+  </p>
+  <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; align-items: center;">
+    <a href="https://www.instagram.com/minionxmatcha" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; padding: 7px 14px; background: #E1306C; color: #ffffff; font-size: 12px; font-weight: 600; text-decoration: none; border-radius: 20px; box-shadow: 0 2px 6px rgba(225,48,108,0.25);">
+      Instagram
+    </a>
+    <a href="https://www.tiktok.com/@minionxmatcha" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; padding: 7px 14px; background: #000000; color: #ffffff; font-size: 12px; font-weight: 600; text-decoration: none; border-radius: 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+      TikTok
+    </a>
+    <a href="https://www.youtube.com/@minionxmatcha" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; padding: 7px 14px; background: #FF0000; color: #ffffff; font-size: 12px; font-weight: 600; text-decoration: none; border-radius: 20px; box-shadow: 0 2px 6px rgba(255,0,0,0.2);">
+      YouTube
+    </a>
+  </div>
+</div>
+
+# Creamie Sippies Jewel Changi Airport: Full Review
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
