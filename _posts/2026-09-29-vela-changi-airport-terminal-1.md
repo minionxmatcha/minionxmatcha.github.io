@@ -310,7 +310,7 @@ date: 2026-09-29
 
     <h3 class="cs-sub">Signatures</h3>
     <div class="cs-special">
-      <div class="cs-special-head"><h4>Cloudy Matcha</h4></div>
+      <div class="cs-special-head"><h4>Cloudy Matcha</h4><span class="cs-special-price">$10.00</span></div>
       <p>Matcha poured over fresh milk and topped with VE/LA's signature light cream foam.</p>
     </div>
     <div class="cs-special">
