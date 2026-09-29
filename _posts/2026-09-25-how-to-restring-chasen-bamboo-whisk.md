@@ -382,33 +382,33 @@ date: 2026-09-25
       </div>
     </div>
 
-    <h3 class="cs-sub">Key technique tips</h3>
-    <ul class="cs-items">
+    <h3 class="cs-sub">Step-by-step zero-knot method</h3>
+    <ol class="cs-steps">
       <li>
-        <div class="cs-items-head"><h3>Choose the right charm</h3></div>
+        <h4>Choose the right charm</h4>
         <p>Look for bracelet charms or jewellery pendants that have an open jump ring or top loop.</p>
       </li>
       <li>
-        <div class="cs-items-head"><h3>Keep the last prong untouched</h3></div>
+        <h4>Keep the last prong untouched</h4>
         <p>Leave the final prong of each row naked.</p>
       </li>
       <li>
-        <div class="cs-items-head"><h3>Thread the loop</h3></div>
+        <h4>Thread the loop</h4>
         <p>Separate the two dangling threads and pass all of the left thread through the charm loop.</p>
       </li>
       <li>
-        <div class="cs-items-head"><h3>Check the orientation</h3></div>
+        <h4>Check the orientation</h4>
         <p>Make sure the charm is right-side up before pulling the thread taut.</p>
       </li>
       <li>
-        <div class="cs-items-head"><h3>Lock it in</h3></div>
+        <h4>Lock it in</h4>
         <p>Continue repeating the weave steps from <a href="#part-1">Part 1</a> (bottom row first, then working upward). The tension of the woven rows locks the charm ring flush against the bamboo without tying any knots.</p>
       </li>
       <li>
-        <div class="cs-items-head"><h3>Trim the thread</h3></div>
+        <h4>Trim the thread</h4>
         <p>Trim the finished ends slightly longer than the bamboo node to allow natural movement without slipping.</p>
       </li>
-    </ul>
+    </ol>
   </section>
 
 </div>
