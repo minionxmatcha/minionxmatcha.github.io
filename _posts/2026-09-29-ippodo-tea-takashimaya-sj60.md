@@ -179,6 +179,17 @@ date: 2026-09-29
   .cs-items .cs-prices li { font-size: 15px; padding: 5px 0; }
   .cs-items .cs-prices .cs-price { font-size: 16px; }
   .cs-mini-head { font-size: 13px; font-weight: 700; color: #6b6550; margin: 10px 0 0 !important; }
+  /* Autumn promo */
+  .cs-promo { margin-top: 16px; border: 2px solid var(--ink); border-radius: 16px; overflow: hidden; background: #FFF1E3; }
+  .cs-promo-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 10px; padding: 12px 14px; background: #D2692E; color: #fff; border-bottom: 2px solid var(--ink); }
+  .cs-promo-badge { font-family: var(--display); font-weight: 800; font-size: 17px; }
+  .cs-promo-sub { font-size: 13px; font-weight: 700; }
+  .cs-tiers { list-style: none; margin: 0; padding: 0; }
+  .cs .cs-tiers li { display: grid; grid-template-columns: 118px 1fr; gap: 12px; align-items: baseline; margin: 0; padding: 11px 14px; font-size: 15px; }
+  .cs .cs-tiers li + li { border-top: 1.5px dashed rgba(42,38,22,.3); }
+  .cs-spend { font-family: var(--display); font-weight: 800; font-size: 16px; color: #A94A18; white-space: nowrap; }
+  .cs-gift small { color: #6b6550; font-size: 13px; }
+  @media (max-width: 520px) { .cs .cs-tiers li { grid-template-columns: 1fr; gap: 2px; } }
 </style>
 
 <script type="application/ld+json">
@@ -359,10 +370,34 @@ date: 2026-09-29
       </li>
       <li>
         <div class="cs-items-head"><h3>TOP QUALI-TEA KYOTO</h3><span class="cs-tag">Kyoga</span></div>
+
+        <p class="cs-mini-head">Matcha & hojicha</p>
         <ul class="cs-prices">
-          <li><span class="cs-item">Kyoto matcha powder tins</span><span class="cs-dots"></span><span class="cs-price">$22.90</span></li>
+          <li><span class="cs-item">Hojicha <small class="cs-jp">30g</small></span><span class="cs-dots"></span><span class="cs-price">$22.90</span></li>
+          <li><span class="cs-item">Suiko Matcha <small class="cs-jp">30g</small></span><span class="cs-dots"></span><span class="cs-price">$29.90</span></li>
+          <li><span class="cs-item">Kyoga Matcha <small class="cs-jp">30g</small></span><span class="cs-dots"></span><span class="cs-price">$56.90</span></li>
+          <li><span class="cs-item">The Signature Set <small class="cs-jp">(all 3 above)</small></span><span class="cs-dots"></span><span class="cs-price">$99.90</span></li>
+          <li><span class="cs-item">Suiko Matcha <small class="cs-jp">100g</small></span><span class="cs-dots"></span><span class="cs-price">$79.90</span></li>
         </ul>
-        <p>Rich matcha baked goods and sweets.</p>
+
+        <p class="cs-mini-head">Sweets & bakes</p>
+        <ul class="cs-prices">
+          <li><span class="cs-item">Hojicha / Matcha Tiramisu <small class="cs-jp">(non-alcoholic)</small></span><span class="cs-dots"></span><span class="cs-price">$9.90</span></li>
+          <li><span class="cs-item">Kyoto Yuzu Jelly</span><span class="cs-dots"></span><span class="cs-price">$5.90</span></li>
+          <li><span class="cs-item">Hojicha / Matcha / Butter Choco Chip Cookie</span><span class="cs-dots"></span><span class="cs-price">$3.90</span></li>
+        </ul>
+
+        <div class="cs-promo">
+          <div class="cs-promo-head">
+            <span class="cs-promo-badge">🍁 Autumn special offer</span>
+            <span class="cs-promo-sub">Free gift worth up to $29.90</span>
+          </div>
+          <ol class="cs-tiers">
+            <li><span class="cs-spend">Spend $25+</span><span class="cs-gift">Free Kyoto Yuzu Jelly <small>(worth $5.90)</small></span></li>
+            <li><span class="cs-spend">Spend $40+</span><span class="cs-gift">Free Tiramisu <small>(worth $9.90)</small></span></li>
+            <li><span class="cs-spend">Spend $80+</span><span class="cs-gift">Choose one: free Suiko Matcha <small>(worth $29.90)</small> or Hojicha powder <small>(worth $22.90)</small></span></li>
+          </ol>
+        </div>
       </li>
     </ul>
   </section>
