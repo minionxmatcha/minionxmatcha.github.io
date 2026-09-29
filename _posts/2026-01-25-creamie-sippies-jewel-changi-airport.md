@@ -4,28 +4,157 @@ title: "Creamie Sippies Jewel Changi Airport: Nitro Matcha, Houjicha & Pie Revie
 date: 2026-01-25
 ---
 
-<!-- TOP BRAND & SOCIAL PROFILE BANNER -->
-<div style="background: #ffffff; border: 1px solid #eaeaea; border-radius: 14px; padding: 18px 20px; margin: 10px auto 25px auto; max-width: 580px; box-shadow: 0 4px 14px rgba(0,0,0,0.04); text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-  <div style="font-size: 20px; font-weight: 700; color: #1a1a1a; letter-spacing: -0.3px; margin-bottom: 4px;">
-    🍵 minionxmatcha
-  </div>
-  <p style="margin: 0 0 14px 0; font-size: 13px; color: #666; line-height: 1.4;">
-    Matcha reviews, cafe walkthroughs & tea guides in Singapore.
-  </p>
-  <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; align-items: center;">
-    <a href="https://www.instagram.com/minionxmatcha" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; padding: 7px 14px; background: #E1306C; color: #ffffff; font-size: 12px; font-weight: 600; text-decoration: none; border-radius: 20px; box-shadow: 0 2px 6px rgba(225,48,108,0.25);">
-      Instagram
-    </a>
-    <a href="https://www.tiktok.com/@minionxmatcha" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; padding: 7px 14px; background: #000000; color: #ffffff; font-size: 12px; font-weight: 600; text-decoration: none; border-radius: 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
-      TikTok
-    </a>
-    <a href="https://www.youtube.com/@minionxmatcha" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; padding: 7px 14px; background: #FF0000; color: #ffffff; font-size: 12px; font-weight: 600; text-decoration: none; border-radius: 20px; box-shadow: 0 2px 6px rgba(255,0,0,0.2);">
-      YouTube
-    </a>
-  </div>
-</div>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@600;800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
 
-# Creamie Sippies Jewel Changi Airport: Full Review
+<style>
+  .cs {
+    --banana: #FFD23F;
+    --pudding: #FFF4C7;
+    --matcha: #5B7F2B;
+    --matcha-deep: #2F4A1A;
+    --foam: #E9F1D8;
+    --ink: #2A2616;
+    --denim: #3A6EA5;
+    --display: 'Grandstander', 'Trebuchet MS', 'Comic Sans MS', system-ui, sans-serif;
+    --body: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: var(--body);
+    color: var(--ink);
+    line-height: 1.6;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .cs *, .cs *::before, .cs *::after { box-sizing: border-box; }
+  .cs a { color: var(--denim); text-underline-offset: 3px; }
+  .cs a:focus-visible { outline: 3px solid var(--denim); outline-offset: 3px; border-radius: 6px; }
+  .cs p { margin: 0 0 16px; }
+
+  /* Brand strip */
+  .cs-brand {
+    position: relative; overflow: hidden;
+    display: grid; grid-template-columns: auto 1fr; align-items: center; column-gap: 16px;
+    padding: 18px 20px 18px 22px; margin: 8px 6px 32px 0;
+    border: 2px solid var(--ink); border-radius: 24px; background: var(--banana);
+    box-shadow: 6px 6px 0 var(--ink);
+  }
+  /* Goggle strap running in from the left edge */
+  .cs-brand::before {
+    content: ""; position: absolute; left: 0; top: 50%; width: 60px; height: 14px;
+    transform: translateY(-50%); background: var(--ink);
+  }
+  /* The goggle itself, with the matcha bowl as the eye */
+  .cs-goggle {
+    position: relative; z-index: 1;
+    width: 72px; height: 72px; border-radius: 50%;
+    display: grid; place-items: center; font-size: 34px; line-height: 1;
+    background: #fff; border: 7px solid #A7ADB4;
+    box-shadow: 0 0 0 2px var(--ink), inset 0 0 0 2px var(--ink);
+  }
+  .cs-brand-text { min-width: 0; }
+  .cs-brand-name { font-family: var(--display); font-weight: 800; font-size: 24px; line-height: 1.1; }
+  .cs-tagline { margin: 2px 0 12px !important; font-size: 13px; color: #4d4418; }
+  .cs-social { display: flex; flex-wrap: wrap; gap: 6px; }
+  .cs .cs-social a {
+    padding: 6px 13px; border-radius: 999px; font-size: 12px; font-weight: 700;
+    color: #fff; text-decoration: none; border: 2px solid var(--ink);
+  }
+  .cs-ig { background: #E1306C; } .cs-tt { background: #000; } .cs-fb { background: #1877F2; } .cs-yt { background: #FF0000; }
+
+  /* Hero: the stall's two counters, side by side */
+  .cs-hero { border: 2px solid var(--ink); border-radius: 28px; overflow: hidden; margin-bottom: 28px; }
+  .cs-hero-top { background: #fff; padding: 24px 22px 20px; }
+  .cs h1.cs-title {
+    font-family: var(--display); font-weight: 800; font-size: clamp(30px, 7vw, 44px);
+    line-height: 1.05; letter-spacing: -0.5px; margin: 0 0 10px; color: var(--ink);
+  }
+  .cs-where { margin: 0; font-size: 15px; color: #5c5640; }
+  .cs-counters { display: grid; grid-template-columns: 1fr 1fr; border-top: 2px solid var(--ink); }
+  .cs-counter { padding: 18px 22px 22px; }
+  .cs-counter + .cs-counter { border-left: 2px solid var(--ink); }
+  .cs-counter-banana { background: var(--banana); }
+  .cs-counter-matcha { background: var(--matcha); color: #fff; }
+  .cs-counter-emoji { font-size: 34px; line-height: 1; display: block; margin-bottom: 8px; }
+  .cs-counter strong { display: block; font-family: var(--display); font-size: 21px; line-height: 1.15; }
+  .cs-counter span.cs-from { font-size: 14px; opacity: .9; }
+
+  /* Video */
+  .cs h2 {
+    font-family: var(--display); font-weight: 800; font-size: 26px; line-height: 1.15;
+    margin: 0 0 14px; color: inherit;
+  }
+  .cs-video { text-align: center; margin: 36px 0; }
+  .cs-video h2 { text-align: left; }
+  .cs-btn {
+    display: inline-block; margin-top: 14px; padding: 11px 22px; border-radius: 999px;
+    background: #E1306C; color: #fff !important; font-weight: 700; text-decoration: none;
+    border: 2px solid var(--ink);
+  }
+  .cs-yt-frame {
+    position: relative; width: 100%; max-width: 300px; margin: 12px auto 0; aspect-ratio: 9/16;
+    border-radius: 20px; overflow: hidden; border: 2px solid var(--ink);
+  }
+  .cs-yt-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .cs-alt { margin: 26px 0 0; font-size: 14px; color: #5c5640; }
+  .cs-more { margin-top: 14px; font-size: 14px; }
+
+  /* Menu boards */
+  .cs-board { border: 2px solid var(--ink); border-radius: 28px; padding: 26px 22px; margin: 0 0 22px; }
+  .cs-board-banana { background: var(--pudding); }
+  .cs-board-matcha { background: var(--foam); }
+  .cs-board-matcha h2 { color: var(--matcha-deep); }
+  .cs-lede { font-size: 15px; }
+  .cs-prices { list-style: none; margin: 0 0 8px; padding: 0; }
+  .cs-prices li { display: flex; align-items: baseline; gap: 8px; padding: 8px 0; font-size: 17px; margin: 0; }
+  .cs-prices .cs-item { font-weight: 600; }
+  .cs-prices .cs-dots { flex: 1; border-bottom: 2px dotted rgba(42,38,22,.35); transform: translateY(-4px); min-width: 20px; }
+  .cs-prices .cs-price { font-family: var(--display); font-weight: 800; font-size: 19px; }
+  .cs h3.cs-sub { font-family: var(--display); font-weight: 600; font-size: 18px; margin: 22px 0 10px; }
+  .cs-group { margin: 0 0 14px; }
+  .cs-group-name { font-size: 14px; font-weight: 700; margin: 0 0 6px; color: #6b5a12; }
+  .cs-chips { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; margin: 0; padding: 0; }
+  .cs-chips li {
+    margin: 0; padding: 5px 12px; border-radius: 999px; font-size: 14px;
+    background: #fff; border: 1.5px solid var(--ink);
+  }
+  .cs-note {
+    margin: 0; padding: 14px 16px; border-radius: 16px; background: #fff; font-size: 14px;
+    border: 1.5px dashed var(--matcha);
+  }
+
+  /* Store info */
+  .cs-info { border: 2px solid var(--ink); border-radius: 28px; padding: 26px 22px; margin: 0 0 30px; background: #fff; }
+  .cs-info dl { margin: 0; display: grid; grid-template-columns: 120px 1fr; gap: 12px 16px; }
+  .cs-info dt { font-weight: 700; font-size: 14px; color: #6b6550; }
+  .cs-info dd { margin: 0; font-size: 16px; }
+  .cs-map {
+    display: inline-block; margin-top: 18px; padding: 10px 18px; border-radius: 999px;
+    background: var(--banana); color: var(--ink) !important; font-weight: 700; text-decoration: none;
+    border: 2px solid var(--ink);
+  }
+
+  @media (max-width: 520px) {
+    .cs-brand { column-gap: 12px; padding: 16px 16px 16px 18px; }
+    .cs-goggle { width: 58px; height: 58px; font-size: 26px; border-width: 6px; }
+    .cs-brand::before { width: 40px; height: 11px; }
+    .cs-brand-name { font-size: 20px; }
+    .cs-counters { grid-template-columns: 1fr; }
+    .cs-counter + .cs-counter { border-left: 0; border-top: 2px solid var(--ink); }
+    .cs-info dl { grid-template-columns: 1fr; gap: 2px; }
+    .cs-info dd { margin-bottom: 10px; }
+  }
+
+  /* Review items (drinks & pies) */
+  .cs-items { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+  .cs-items li { margin: 0; background: #fff; border: 1.5px solid var(--ink); border-radius: 18px; padding: 16px 18px; }
+  .cs-items-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin-bottom: 6px; }
+  .cs-items h3 { font-family: var(--display); font-weight: 800; font-size: 19px; line-height: 1.2; margin: 0; }
+  .cs-tag { font-size: 12px; font-weight: 700; padding: 3px 10px; border-radius: 999px; border: 1.5px solid var(--ink); }
+  .cs-board-matcha .cs-tag { background: var(--foam); color: var(--matcha-deep); }
+  .cs-board-banana .cs-tag { background: var(--pudding); color: #6b5a12; }
+  .cs-items p { margin: 0; font-size: 15px; }
+  .cs-crosslink { margin: 0 0 16px; padding: 14px 16px; border-radius: 16px; background: var(--pudding); font-size: 14px; border: 1.5px dashed #C9A21B; }
+</style>
 
 <script type="application/ld+json">
 {
@@ -62,68 +191,118 @@ date: 2026-01-25
 }
 </script>
 
-Creamie Sippies at Jewel Changi Airport carries their full-service drink and bakery lineup, featuring nitrogen-infused teas on tap and freshly baked pies. 
+<div class="cs">
 
-*(Visiting the central area instead? Check out our guide to their new [Bugis Street Level 2 Banana Pudding & Mini Matcha Bar](/2026/09/25/creamie-sippies-bugis-street.html)).*
-
----
-
-### Watch the Video Review
-
-<div style="display: flex; flex-direction: column; gap: 24px; align-items: center; max-width: 420px; margin: 0 auto 30px;">
-
-  <!-- Primary: Instagram Reel Hero Embed -->
-  <div style="width: 100%; text-align: center;">
-    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DT5cbYPE7HU/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:12px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 0 auto; max-width: 360px; min-width: 280px; padding: 0; width: 100%;"></blockquote>
-    <script async src="//www.instagram.com/embed.js"></script>
-
-    <div style="margin-top: 14px;">
-      <a href="https://www.instagram.com/reel/DT5cbYPE7HU/" target="_blank" rel="noopener" style="display: inline-block; padding: 10px 20px; background-color: #E1306C; color: #ffffff; border-radius: 8px; font-size: 14px; text-decoration: none; font-weight: 600;">
-        Follow & Watch on Instagram
-      </a>
+  <!-- Brand strip -->
+  <div class="cs-brand">
+    <div class="cs-goggle" aria-hidden="true">🍵</div>
+    <div class="cs-brand-text">
+    <div class="cs-brand-name">minionxmatcha</div>
+    <p class="cs-tagline">Matcha reviews, cafe walkthroughs & tea guides in Singapore</p>
+    <nav class="cs-social" aria-label="minionxmatcha on social media">
+      <a class="cs-ig" href="https://www.instagram.com/minionxmatcha" target="_blank" rel="noopener">Instagram</a>
+      <a class="cs-tt" href="https://www.tiktok.com/@minionxmatcha" target="_blank" rel="noopener">TikTok</a>
+      <a class="cs-fb" href="https://www.facebook.com/p/Minionxmatcha-61592062657121/" target="_blank" rel="noopener">Facebook</a>
+      <a class="cs-yt" href="https://www.youtube.com/@minionxmatcha" target="_blank" rel="noopener">YouTube</a>
+    </nav>
     </div>
   </div>
 
-  <!-- Secondary: YouTube Shorts Embed (Preserves Google Video Search Badge) -->
-  <div style="width: 100%; text-align: center; margin-top: 16px; border-top: 1px solid #eee; padding-top: 20px;">
-    <p style="margin: 0 0 12px; font-size: 13px; color: #666; font-weight: 500;">Alternative Player (YouTube Shorts):</p>
-    <div style="position: relative; width: 100%; max-width: 320px; margin: 0 auto; aspect-ratio: 9/16; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-      <iframe 
-        src="https://www.youtube.com/embed/2Gfls-nx4S0" 
-        title="Creamie Sippies Jewel Changi Airport Review" 
-        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  <!-- Hero: what this outlet is known for -->
+  <header class="cs-hero">
+    <div class="cs-hero-top">
+      <h1 class="cs-title">Creamie Sippies Jewel Changi Airport: Full Review</h1>
+      <p class="cs-where">Jewel Changi Airport, #01-K214 · Full drink & pie menu</p>
+    </div>
+    <div class="cs-counters">
+      <div class="cs-counter cs-counter-matcha">
+        <span class="cs-counter-emoji" aria-hidden="true">🍵</span>
+        <strong>Nitro Teas on Tap</strong>
+        <span class="cs-from">Matcha, houjicha & lattes</span>
+      </div>
+      <div class="cs-counter cs-counter-banana">
+        <span class="cs-counter-emoji" aria-hidden="true">🥧</span>
+        <strong>Freshly Baked Pies</strong>
+        <span class="cs-from">Savoury & sweet</span>
+      </div>
+    </div>
+  </header>
+
+  <p>Creamie Sippies at Jewel Changi Airport carries their full-service drink and bakery lineup, featuring nitrogen-infused teas on tap and freshly baked pies.</p>
+
+  <p class="cs-crosslink">Visiting the central area instead? Check out our guide to their new <a href="/2026/09/25/creamie-sippies-bugis-street.html">Bugis Street Level 2 Banana Pudding & Mini Matcha Bar</a>.</p>
+
+  <!-- Video -->
+  <section class="cs-video">
+    <h2>Watch the video review</h2>
+
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DT5cbYPE7HU/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:20px; box-shadow:0 0 0 2px #2A2616; margin: 0 auto; max-width: 360px; min-width: 280px; padding: 0; width: 100%;"></blockquote>
+    <script async src="//www.instagram.com/embed.js"></script>
+
+    <a class="cs-btn" href="https://www.instagram.com/reel/DT5cbYPE7HU/" target="_blank" rel="noopener">Follow & watch on Instagram</a>
+
+    <!-- YouTube Shorts embed (preserves the Google video search badge) -->
+    <p class="cs-alt">Prefer YouTube? Watch the Short here:</p>
+    <div class="cs-yt-frame">
+      <iframe
+        src="https://www.youtube.com/embed/2Gfls-nx4S0"
+        title="Creamie Sippies Jewel Changi Airport Review"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
       </iframe>
     </div>
-  </div>
 
-  <!-- Other Platforms -->
-  <div style="margin-top: 8px;">
-    <a href="https://www.tiktok.com/@minionxmatcha/video/7598944964235611413" target="_blank" rel="noopener" style="font-size: 13px; color: #555; text-decoration: underline;">
-      Watch on TikTok instead →
-    </a>
-  </div>
+    <p class="cs-more">
+      <a href="https://www.tiktok.com/@minionxmatcha/video/7598944964235611413" target="_blank" rel="noopener">Watch on TikTok</a>
+      &nbsp;or&nbsp;
+      <a href="https://www.facebook.com/p/Minionxmatcha-61592062657121/" target="_blank" rel="noopener">visit on Facebook</a>
+    </p>
+  </section>
+
+  <!-- Drinks -->
+  <section class="cs-board cs-board-matcha">
+    <h2>🍵 Drinks & highlights</h2>
+    <ul class="cs-items">
+      <li>
+        <div class="cs-items-head"><h3>Tenrei Nitro Matcha Latte</h3><span class="cs-tag">Nitro tap</span></div>
+        <p>Poured directly from the nitrogen tap. The nitrogen infusion creates tiny microbubbles and a remarkably smooth, velvety mouthfeel with gentle umami and nuttiness. Ideal if you prefer unsweetened matcha.</p>
+      </li>
+      <li>
+        <div class="cs-items-head"><h3>Gula Melaka Houjicha Latte</h3><span class="cs-tag">Iced</span></div>
+        <p>Freshly whisked roasted green tea poured over ice, paired with creamy coconut milk and smoky gula melaka. The rich hojicha notes still cut through with a warm caramel finish.</p>
+      </li>
+      <li>
+        <div class="cs-items-head"><h3>Salted Butterscotch Nitro Latte</h3><span class="cs-tag">Takeaway can</span></div>
+        <p>Packaged in a takeaway can. Sweet and salty with distinct butterbeer-like profiles, tasting remarkably like melted salted caramel ice cream in drink form.</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Pies -->
+  <section class="cs-board cs-board-banana">
+    <h2>🥧 Savoury & sweet pies</h2>
+    <ul class="cs-items">
+      <li>
+        <div class="cs-items-head"><h3>Beefie Cheekie Pie</h3><span class="cs-tag">Savoury</span></div>
+        <p>Flaky pastry crust loaded with tender, slow-cooked beef cheek chunks in a savoury beef stock gravy.</p>
+      </li>
+      <li>
+        <div class="cs-items-head"><h3>Toasted Lemon Cloud Pie</h3><span class="cs-tag">Sweet</span></div>
+        <p>Fluffy torched marshmallow top over a tart lemon curd layer and crumbly biscuit base. Leans sweet, perfect for dessert lovers.</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Outlet details -->
+  <section class="cs-info">
+    <h2>Outlet details</h2>
+    <dl>
+      <dt>Location</dt>
+      <dd>78 Airport Boulevard, #01-K214<br>Jewel Changi Airport, Singapore 819666</dd>
+      <dt>Best for</dt>
+      <dd>A quick matcha and coffee fix before or after flights, or a takeaway pitstop for Easties</dd>
+    </dl>
+    <a class="cs-map" href="https://www.google.com/maps/search/?api=1&query=Creamie+Sippies+Jewel+Changi+Airport+78+Airport+Boulevard+Singapore+819666" target="_blank" rel="noopener">Open in Google Maps</a>
+  </section>
 
 </div>
-
----
-
-### Drinks & Highlights
-
-* **Tenrei Nitro Matcha Latte:** Poured directly from the nitrogen tap. The nitrogen infusion creates tiny microbubbles and a remarkably smooth, velvety mouthfeel with gentle umami and nuttiness—ideal if you prefer unsweetened matcha.
-* **Gula Melaka Houjicha Latte:** Freshly whisked roasted green tea poured over ice, paired with creamy coconut milk and smoky gula melaka. The rich hojicha notes still cut through with a warm caramel finish.
-* **Salted Butterscotch Nitro Latte:** Packaged in a takeaway can. Sweet and salty with distinct butterbeer-like profiles—tasting remarkably like melted salted caramel ice cream in drink form.
-
----
-
-### Savoury & Sweet Pies
-
-* **Beefie Cheekie Pie:** Flaky pastry crust loaded with tender, slow-cooked beef cheek chunks in a savoury beef stock gravy.
-* **Toasted Lemon Cloud Pie:** Fluffy torched marshmallow top over a tart lemon curd layer and crumbly biscuit base. Leans sweet, perfect for dessert lovers.
-
----
-
-### Outlet Details
-* **Location:** 78 Airport Boulevard, #01-K214 Jewel Changi Airport, Singapore 819666
-* **Best For:** Quick matcha and coffee fix before or after flights, or a takeaway pitstop for Easties.
