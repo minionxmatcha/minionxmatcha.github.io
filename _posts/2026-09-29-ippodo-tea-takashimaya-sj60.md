@@ -278,7 +278,7 @@ date: 2026-09-29
     <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Dd3ZK6VOx3q/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:20px; box-shadow:0 0 0 2px #2A2616; margin: 0 auto; max-width: 360px; min-width: 280px; padding: 0; width: 100%;"></blockquote>
     <script async src="//www.instagram.com/embed.js"></script>
 
-    <a class="cs-btn" href="https://www.instagram.com/reel/Dd3ZK6VOx3q/" target="_blank" rel="noopener">Follow & watch on Instagram</a>
+    <a class="cs-btn" href="https://www.instagram.com/reel/Dd3ZK6VOx3q/?utm_source=ig_web_copy_link&amp;stkn=MzRlODBiNWFlZA==" target="_blank" rel="noopener">Follow & watch on Instagram</a>
 
     <!-- YouTube Shorts embed (preserves the Google video search badge) -->
     <p class="cs-alt">Prefer YouTube? Watch the Short here:</p>
