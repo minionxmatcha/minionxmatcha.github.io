@@ -369,7 +369,7 @@ date: 2026-09-29
         <p>Thick-cut bakery items, including their signature oversized Matcha Pistachio cookies.</p>
       </li>
       <li>
-        <div class="cs-items-head"><h3>TOP QUALI-TEA KYOTO</h3><span class="cs-tag">Kyoga</span></div>
+        <div class="cs-items-head"><h3>TOP QUALI-TEA KYOTO</h3></div>
 
         <p class="cs-mini-head">Matcha & hojicha</p>
         <ul class="cs-prices">
