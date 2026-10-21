@@ -287,6 +287,8 @@ date: 2026-10-21
   .cs-pick ul { margin: 0; padding-left: 18px; font-size: 15px; }
   .cs-pick li { margin: 0 0 4px; }
   @media (max-width: 520px) { .cs-picks { grid-template-columns: 1fr; } }
+  .cs-table tr.cs-table-group th { background: #fff; font-family: var(--display); font-weight: 800; font-size: 14px; color: var(--ink); border-top: 1.5px solid var(--ink); }
+  .cs-ingredients { font-size: 14px !important; }
 </style>
 
 <script type="application/ld+json">
@@ -296,7 +298,7 @@ date: 2026-10-21
     {
       "@type": "Product",
       "name": "F&N Magnolia Matcha Flavoured Milk",
-      "description": "Matcha flavoured milk made with 100% fresh milk and green tea essence. 8.5g protein per 250ml serving, Nutri-Grade C.",
+      "description": "Matcha flavoured milk made with fresh milk and matcha green tea powder. 8.5g protein and 25.8g total sugars per 250ml serving, Nutri-Grade C.",
       "image": "https://img.youtube.com/vi/fUSKfXO77RQ/hqdefault.jpg",
       "brand": { "@type": "Brand", "name": "F&N Magnolia" },
       "offers": { "@type": "Offer", "price": "3.40", "priceCurrency": "SGD", "availability": "https://schema.org/InStock" }
@@ -304,7 +306,7 @@ date: 2026-10-21
     {
       "@type": "Product",
       "name": "Marigold HL Select Matcha Latte",
-      "description": "High-protein matcha latte with green tea essence. 10.5g protein per 250ml serving, lower sugar, Nutri-Grade C.",
+      "description": "High calcium, high protein, 99% fat-free matcha milk with 9 vitamins. 10.5g protein and 22.5g total sugars per 250ml serving, Nutri-Grade B. 946ml.",
       "image": "https://img.youtube.com/vi/fUSKfXO77RQ/hqdefault.jpg",
       "brand": { "@type": "Brand", "name": "Marigold" },
       "offers": { "@type": "Offer", "price": "3.95", "priceCurrency": "SGD", "availability": "https://schema.org/InStock" }
@@ -312,7 +314,7 @@ date: 2026-10-21
     {
       "@type": "VideoObject",
       "name": "Magnolia Matcha Flavoured Milk vs Marigold HL Select Matcha Latte",
-      "description": "A 4-round showdown comparing F&N Magnolia Matcha Flavoured Milk and Marigold HL Select Matcha Latte on price, colour, protein, sweetness and milk base.",
+      "description": "A 4-round showdown comparing F&N Magnolia Matcha Flavoured Milk and Marigold HL Select Matcha Latte on price, colour, protein, sweetness, Nutri-Grade and milk base.",
       "thumbnailUrl": [
         "https://img.youtube.com/vi/fUSKfXO77RQ/hqdefault.jpg"
       ],
@@ -351,18 +353,18 @@ date: 2026-10-21
       <a class="cs-counter cs-counter-banana" href="#showdown" style="text-decoration:none;color:var(--ink);">
         <span class="cs-counter-emoji" aria-hidden="true">🥛</span>
         <strong>F&N Magnolia</strong>
-        <span class="cs-from">$3.40 · 100% fresh milk</span>
+        <span class="cs-from">$3.40 · Made with fresh milk · Nutri-Grade C</span>
       </a>
       <a class="cs-counter cs-counter-matcha" href="#showdown" style="text-decoration:none;color:#fff;">
         <span class="cs-counter-emoji" aria-hidden="true">💪</span>
         <strong>Marigold HL Select</strong>
-        <span class="cs-from">$3.95 · 10.5g protein per serve</span>
+        <span class="cs-from">$3.95 · 10.5g protein per serve · Nutri-Grade B</span>
       </a>
     </div>
   </header>
 
   <p>F&N Magnolia has just launched its new <strong>Matcha Flavoured Milk</strong>, so I put it in the ring against the existing <strong>Marigold HL Select Matcha Latte</strong> in a fighting-game-style showdown.</p>
-  <p>Here is the round-by-round breakdown covering price, colour, protein, sweetness and milk base, plus which one to pick for your needs.</p>
+  <p>Here is the round-by-round breakdown covering price, colour, protein, sweetness and milk base, plus the full nutrition labels side by side and which one to pick for your needs.</p>
 
   <!-- Video -->
   <section class="cs-video">
@@ -414,30 +416,31 @@ date: 2026-10-21
     <div class="cs-round">
       <div class="cs-round-head"><span>Round 3</span><h3>Protein (per 250ml serving)</h3></div>
       <div class="cs-vs">
-        <div class="cs-vs-std"><strong>F&N Magnolia</strong><span class="cs-big">8.5g</span><p>Protein per serving.</p></div>
-        <div class="cs-vs-sas"><strong>Marigold HL Select <span class="cs-win">Winner</span></strong><span class="cs-big">10.5g</span><p>20g protein per carton, making it Ken's ideal post-workout pick.</p></div>
+        <div class="cs-vs-std"><strong>F&N Magnolia</strong><span class="cs-big">8.5g</span><p>1.5 servings give at least 10g protein a day.</p></div>
+        <div class="cs-vs-sas"><strong>Marigold HL Select <span class="cs-win">Winner</span></strong><span class="cs-big">10.5g</span><p>2 servings give at least 20g protein a day, making it Ken's ideal post-workout pick.</p></div>
       </div>
     </div>
 
     <div class="cs-round">
       <div class="cs-round-head"><span>Final round</span><h3>Taste, sweetness & milk quality</h3></div>
-      <div class="cs-round-note">🍵 <strong>Matcha:</strong> both drinks rely on authentic green tea essence.</div>
-      <div class="cs-round-sub">Sweetness & Nutri-Grade</div>
+      <div class="cs-round-note">🍵 <strong>Matcha:</strong> both use real matcha powder plus flavouring.</div>
+      <div class="cs-round-sub">Sweetness & Nutri-Grade (per 100ml)</div>
       <div class="cs-vs">
-        <div class="cs-vs-std"><strong>F&N Magnolia</strong><p>Noticeably sweeter. Nutri-Grade C, 8% sugar.</p></div>
-        <div class="cs-vs-sas"><strong>Marigold HL Select</strong><p>Less sweet. Nutri-Grade C, 4% sugar.</p></div>
+        <div class="cs-vs-std"><strong>F&N Magnolia</strong><span class="cs-big">Grade C</span><p>Noticeably sweeter. 10.3g total sugars, including 4.5g added sugar.</p></div>
+        <div class="cs-vs-sas"><strong>Marigold HL Select <span class="cs-win">Better grade</span></strong><span class="cs-big">Grade B</span><p>Less sweet. 9.0g total sugars, including 3.5g added sugar.</p></div>
       </div>
       <div class="cs-round-sub">Milk base & mouthfeel</div>
       <div class="cs-vs">
-        <div class="cs-vs-std"><strong>F&N Magnolia <span class="cs-win">Winner</span></strong><p>Made with 100% fresh milk, giving it a richer, natural fresh-milk texture.</p></div>
-        <div class="cs-vs-sas"><strong>Marigold HL Select</strong><p>Loses out to Magnolia on mouthfeel.</p></div>
+        <div class="cs-vs-std"><strong>F&N Magnolia <span class="cs-win">Winner</span></strong><p>Made with fresh milk (plus milk solids), with 1.8g fat per 100ml. Richer and creamier, and it wins on mouthfeel.</p></div>
+        <div class="cs-vs-sas"><strong>Marigold HL Select</strong><p>Made from milk solids, no fresh milk. 99% fat-free at 0.6g fat per 100ml, so it's lighter in the mouth.</p></div>
       </div>
     </div>
   </section>
 
-  <!-- Side by side -->
-  <section class="cs-info">
-    <h2>Side-by-side stats</h2>
+  <!-- Nutrition -->
+  <section class="cs-info" id="nutrition">
+    <h2>Nutrition labels side by side</h2>
+    <p class="cs-lede">Per 250ml serving (1 glass). Both cartons hold about 4 servings.</p>
     <div class="cs-table-wrap">
       <table class="cs-table">
         <thead>
@@ -445,25 +448,48 @@ date: 2026-10-21
         </thead>
         <tbody>
           <tr><th scope="row">Price</th><td>$3.40</td><td>$3.95</td></tr>
-          <tr><th scope="row">Protein (250ml)</th><td>8.5g</td><td>10.5g</td></tr>
-          <tr><th scope="row">Sugar</th><td>8%</td><td>4%</td></tr>
-          <tr><th scope="row">Nutri-Grade</th><td>C</td><td>C</td></tr>
-          <tr><th scope="row">Milk base</th><td>100% fresh milk</td><td>Not stated</td></tr>
+          <tr><th scope="row">Nutri-Grade</th><td>C</td><td>B</td></tr>
+          <tr><th scope="row">Energy</th><td>180 kcal</td><td>156 kcal</td></tr>
+          <tr><th scope="row">Protein</th><td>8.5g</td><td>10.5g</td></tr>
+          <tr><th scope="row">Total fat</th><td>4.5g</td><td>1.5g</td></tr>
+          <tr><th scope="row">Saturated fat</th><td>3.5g</td><td>1.0g</td></tr>
+          <tr><th scope="row">Total sugars</th><td>25.8g</td><td>22.5g</td></tr>
+          <tr><th scope="row">Added sugar</th><td>11.3g</td><td>8.8g</td></tr>
+          <tr><th scope="row">Lactose</th><td>14.5g</td><td>13.8g</td></tr>
+          <tr><th scope="row">Dietary fibre</th><td>1.5g</td><td>0g</td></tr>
+          <tr><th scope="row">Sodium</th><td>95mg</td><td>138mg</td></tr>
+          <tr><th scope="row">Calcium</th><td>290mg</td><td>500mg</td></tr>
+          <tr><th scope="row">Added vitamins</th><td>None</td><td>9 (A, B1, B3, B5, B6, C, D3, E, K1)</td></tr>
+          <tr><th scope="row">Milk base</th><td>Fresh milk + milk solids</td><td>Milk solids</td></tr>
           <tr><th scope="row">Colour</th><td>Pale pastel green</td><td>Greener</td></tr>
         </tbody>
       </table>
     </div>
   </section>
 
-  <!-- Verdict -->
+  <!-- Ingredients -->
   <section class="cs-board cs-board-banana">
+    <h2>📋 Ingredients</h2>
+    <div class="cs-special">
+      <div class="cs-special-head"><h4>F&N Magnolia Matcha Flavoured Milk</h4></div>
+      <p class="cs-ingredients">Water, fresh milk, milk solids, sucrose, matcha green tea powder, emulsifier, stabilisers, flavouring.</p>
+    </div>
+    <div class="cs-special">
+      <div class="cs-special-head"><h4>Marigold HL Select Matcha Latte</h4></div>
+      <p class="cs-ingredients">Water, milk solids, sucrose, matcha powder, calcium carbonate, emulsifier, flavouring, stabiliser, potassium carbonate, di-sodium phosphate, vitamin C, vitamin E, nicotinamide, calcium-D-pantothenate, vitamin B6, vitamin B1, vitamin A palmitate, vitamin K1 and vitamin D3.</p>
+    </div>
+    <p class="cs-note">Magnolia is pasteurised and homogenised. Shake well, keep refrigerated at 2°C to 4°C, and finish within 3 days of opening.</p>
+  </section>
+
+  <!-- Verdict -->
+  <section class="cs-board cs-board-matcha">
     <h2>🏆 Verdict: which should you pick?</h2>
     <div class="cs-picks">
       <div class="cs-pick cs-pick-magnolia">
         <h3>Pick F&N Magnolia if you want…</h3>
         <ul>
-          <li>A 100% fresh milk base</li>
-          <li>A creamier texture</li>
+          <li>A drink made with fresh milk</li>
+          <li>A richer, creamier texture</li>
           <li>A sweeter profile</li>
           <li>The lower price ($3.40 vs $3.95)</li>
         </ul>
@@ -471,8 +497,10 @@ date: 2026-10-21
       <div class="cs-pick cs-pick-marigold">
         <h3>Pick Marigold HL Select if you want…</h3>
         <ul>
-          <li>Higher protein (10.5g per serve)</li>
-          <li>Lower sugar (4%)</li>
+          <li>More protein (10.5g per serve)</li>
+          <li>Less sugar and a Nutri-Grade B</li>
+          <li>Lower fat (99% fat-free)</li>
+          <li>More calcium plus 9 added vitamins</li>
           <li>A greener matcha look</li>
         </ul>
       </div>
