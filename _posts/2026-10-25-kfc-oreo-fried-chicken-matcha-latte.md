@@ -315,7 +315,7 @@ date: 2026-10-25
     {
       "@type": "Recipe",
       "name": "Fried Chicken Matcha Latte (KFC Oreo Edition)",
-      "description": "A spooky layered Halloween drink featuring a rich black Oreo cookie paste base, Hokkaido milk, ceremonial Naoki Matcha, and a savoury KFC Fried Chicken cold foam cap.",
+      "description": "A spooky layered Halloween drink featuring a rich black Oreo cookie paste base, Hokkaido milk, Naoki Superior Blend ceremonial grade matcha, and a savoury KFC Fried Chicken cold foam cap.",
       "image": "https://img.youtube.com/vi/7uve1jeHDnM/hqdefault.jpg",
       "author": {
         "@type": "Person",
@@ -326,9 +326,9 @@ date: 2026-10-25
       "recipeYield": "1 drink",
       "keywords": "matcha, kfc oreo, fried chicken matcha latte, halloween drink recipe, savoury cold foam",
       "recipeIngredient": [
-        "3–4 KFC × Oreo sandwich cookies",
+        "5 KFC × Oreo sandwich cookies",
         "120ml Yotsuba Hokkaido Whole Milk (divided)",
-        "3–4g Naoki Matcha (Chiyo no Shiro)",
+        "3–4g Naoki Superior Blend Ceremonial Grade Matcha",
         "30ml water at 80°C",
         "50ml whipping cream or thickened heavy cream",
         "Ice cubes",
@@ -338,14 +338,14 @@ date: 2026-10-25
         { "@type": "HowToStep", "name": "Dissect the cookies", "text": "Twist open the KFC Oreos. Scrape the orange savoury filling into a frothing vessel and keep the black chocolate wafers separate." },
         { "@type": "HowToStep", "name": "Blend the black base", "text": "Blend the dark wafers with a splash of Hokkaido milk until smooth and velvety. Pour into the bottom of your serving glass." },
         { "@type": "HowToStep", "name": "Whip the savoury foam", "text": "Add heavy cream to the orange filling. Whisk or shake vigorously until it reaches a thick, pourable cold foam consistency." },
-        { "@type": "HowToStep", "name": "Whisk the matcha", "text": "Sift 3–4g of ceremonial matcha into a chawan and whisk briskly with 30ml of 80°C water using a bamboo chasen until an even micro-foam appears." },
+        { "@type": "HowToStep", "name": "Whisk the matcha", "text": "Sift 3–4g of Naoki Superior Blend ceremonial grade matcha into a chawan and whisk briskly with 30ml of 80°C water using a bamboo chasen until an even micro-foam appears." },
         { "@type": "HowToStep", "name": "Layer and garnish", "text": "Add ice over the black Oreo paste, pour in the Hokkaido milk, gently pour over the matcha, and top with the savoury fried chicken cream foam. Garnish with an Oreo monster topped with candy eyes." }
       ]
     },
     {
       "@type": "VideoObject",
       "name": "Fried Chicken Matcha Latte: KFC Oreo Halloween Drink",
-      "description": "Making a Halloween layered drink with KFC x Oreo fried chicken cookies, Yotsuba Hokkaido milk, and Naoki Matcha.",
+      "description": "Making a Halloween layered drink with KFC x Oreo fried chicken cookies, Yotsuba Hokkaido milk, and Naoki Superior Blend ceremonial grade matcha.",
       "thumbnailUrl": [
         "https://img.youtube.com/vi/7uve1jeHDnM/hqdefault.jpg"
       ],
@@ -474,7 +474,7 @@ date: 2026-10-25
       </div>
       <ul class="cs-glass-key" aria-label="Layers from top to bottom">
         <li><span class="cs-swatch" style="background:#FBE3B6"></span><span><strong>Top:</strong> savoury fried chicken cold foam, plus an Oreo monster with candy eyes</span></li>
-        <li><span class="cs-swatch" style="background:#7FA03A"></span><span><strong>Matcha:</strong> Naoki Chiyo no Shiro, freshly whisked</span></li>
+        <li><span class="cs-swatch" style="background:#7FA03A"></span><span><strong>Matcha:</strong> Naoki Superior Blend, ceremonial grade, freshly whisked</span></li>
         <li><span class="cs-swatch" style="background:#FFFBF0"></span><span><strong>Milk:</strong> Yotsuba Hokkaido whole milk over ice</span></li>
         <li><span class="cs-swatch" style="background:#2B2420"></span><span><strong>Bottom:</strong> black Oreo wafer paste</span></li>
       </ul>
@@ -482,9 +482,9 @@ date: 2026-10-25
 
     <h3 class="cs-sub">Ingredients</h3>
     <ul class="cs-prices">
-      <li><span class="cs-item">KFC × Oreo sandwich cookies</span><span class="cs-dots"></span><span class="cs-price">3–4</span></li>
+      <li><span class="cs-item">KFC × Oreo sandwich cookies</span><span class="cs-dots"></span><span class="cs-price">5</span></li>
       <li><span class="cs-item">Yotsuba Hokkaido Whole Milk <small>(divided)</small></span><span class="cs-dots"></span><span class="cs-price">120ml</span></li>
-      <li><span class="cs-item">Naoki Matcha <small>(Chiyo no Shiro)</small></span><span class="cs-dots"></span><span class="cs-price">3–4g</span></li>
+      <li><span class="cs-item">Naoki Superior Blend Matcha <small>(ceremonial grade)</small></span><span class="cs-dots"></span><span class="cs-price">3–4g</span></li>
       <li><span class="cs-item">Water at 80°C</span><span class="cs-dots"></span><span class="cs-price">30ml</span></li>
       <li><span class="cs-item">Whipping cream <small>(or thickened heavy cream)</small></span><span class="cs-dots"></span><span class="cs-price">50ml</span></li>
       <li><span class="cs-item">Ice cubes & candy googly eyes</span><span class="cs-dots"></span><span class="cs-price">To serve</span></li>
@@ -506,7 +506,7 @@ date: 2026-10-25
       </li>
       <li>
         <h4>Whisk the matcha</h4>
-        <p>Sift 3–4g of matcha into a chawan, add 30ml of 80°C water and whisk briskly with a bamboo chasen until an even micro-foam appears.</p>
+        <p>Sift 3–4g of Naoki Superior Blend matcha into a chawan, add 30ml of 80°C water and whisk briskly with a bamboo chasen until an even micro-foam appears.</p>
       </li>
       <li>
         <h4>Layer & garnish</h4>
