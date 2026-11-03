@@ -304,6 +304,9 @@ date: 2026-11-03
   .cs-blend-head { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
   .cs-dot { flex: none; width: 34px; height: 34px; border-radius: 50%; border: 2px solid var(--ink); }
   .cs-blend-head h4 { font-family: var(--display); font-weight: 800; font-size: 20px; line-height: 1.1; margin: 0; }
+  .cs-blend-head .cs-special-price { margin-left: auto; }
+  .cs-shops { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+  .cs-shops .cs-map { margin-top: 0; }
   .cs-blend-head small { display: block; font-family: var(--body); font-weight: 400; font-size: 13px; color: #6b6550; }
   .cs-special .cs-blend-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 10px; }
   .cs-special dl { margin: 10px 0 0; display: grid; grid-template-columns: 110px 1fr; gap: 6px 12px; font-size: 15px; }
@@ -334,7 +337,29 @@ date: 2026-11-03
       "@type": "Brand",
       "name": "EIEN Matcha",
       "description": "Singapore-based Japanese matcha brand offering 40g tins across Shizuoka and Uji Kyoto growing regions: Moment, Eve, and Still.",
-      "image": "https://img.youtube.com/vi/PLn_QIRnm9k/hqdefault.jpg"
+      "image": "https://img.youtube.com/vi/PLn_QIRnm9k/hqdefault.jpg",
+      "url": "https://eientea.com"
+    },
+    {
+      "@type": "Product",
+      "name": "EIEN Matcha Moment (40g)",
+      "description": "Shizuoka matcha blend of Yabukita, Saemidori, Okumidori and Saeakari from first and second harvests. Mineral, rounded, smooth.",
+      "brand": { "@type": "Brand", "name": "EIEN Matcha" },
+      "offers": { "@type": "Offer", "price": "24.00", "priceCurrency": "SGD", "url": "https://eientea.com", "availability": "https://schema.org/InStock" }
+    },
+    {
+      "@type": "Product",
+      "name": "EIEN Matcha Eve (40g)",
+      "description": "First-harvest Shizuoka matcha blend of Yabukita, Okumidori, Tsuyuhikari and Saemidori. Balanced, full-bodied, silky.",
+      "brand": { "@type": "Brand", "name": "EIEN Matcha" },
+      "offers": { "@type": "Offer", "price": "32.00", "priceCurrency": "SGD", "url": "https://eientea.com", "availability": "https://schema.org/InStock" }
+    },
+    {
+      "@type": "Product",
+      "name": "EIEN Matcha Still (40g)",
+      "description": "First-harvest Uji, Kyoto matcha blend of Okumidori and Yabukita. Deep umami, nutty, creamy.",
+      "brand": { "@type": "Brand", "name": "EIEN Matcha" },
+      "offers": { "@type": "Offer", "price": "43.00", "priceCurrency": "SGD", "url": "https://eientea.com", "availability": "https://schema.org/InStock" }
     },
     {
       "@type": "VideoObject",
@@ -372,26 +397,28 @@ date: 2026-11-03
   <header class="cs-hero">
     <div class="cs-hero-top">
       <h1 class="cs-title">EIEN Matcha Singapore: Moment, Eve & Still Compared</h1>
-      <p class="cs-where">3 blends · Shizuoka & Uji, Kyoto · 40g tins</p>
+      <p class="cs-where">3 blends · Shizuoka & Uji, Kyoto · 40g tins from $24</p>
     </div>
     <div class="cs-counters cs-counters-3">
       <a class="cs-counter cs-counter-moment" href="#moment" style="text-decoration:none;color:var(--ink);">
         <strong>Moment</strong>
-        <span class="cs-from">Shizuoka · 1st & 2nd harvest</span>
+        <span class="cs-from">$24 · Shizuoka · 1st & 2nd harvest</span>
       </a>
       <a class="cs-counter cs-counter-eve" href="#eve" style="text-decoration:none;color:#fff;">
         <strong>Eve</strong>
-        <span class="cs-from">Shizuoka · 1st harvest</span>
+        <span class="cs-from">$32 · Shizuoka · 1st harvest</span>
       </a>
       <a class="cs-counter cs-counter-still" href="#still" style="text-decoration:none;color:#fff;">
         <strong>Still</strong>
-        <span class="cs-from">Uji, Kyoto · 1st harvest</span>
+        <span class="cs-from">$43 · Uji, Kyoto · 1st harvest</span>
       </a>
     </div>
   </header>
 
   <p><strong>EIEN Matcha</strong> is a Singapore-based matcha brand offering three curated multi-cultivar blends sourced from two classic Japanese tea regions: <strong>Shizuoka</strong> and <strong>Uji, Kyoto</strong>. Notably, each tin holds <strong>40g of matcha powder</strong> rather than the standard 30g retail size.</p>
   <p>Here is the side-by-side breakdown of the cultivars, harvests and dry powder colour across all three blends: <strong>Moment</strong>, <strong>Eve</strong> and <strong>Still</strong>.</p>
+
+  <p class="cs-crosslink">🛒 <strong>Where to buy:</strong> EIEN's official site, Shopee and Lazada. <a href="#buy">See prices</a>.</p>
 
   <!-- Video -->
   <section class="cs-video">
@@ -435,7 +462,7 @@ date: 2026-11-03
     <h3 class="cs-sub">The three blends</h3>
 
     <div class="cs-special" id="moment">
-      <div class="cs-blend-head"><span class="cs-dot" style="background:#C9CF6B"></span><h4>Moment<small>Shizuoka · 40g</small></h4></div>
+      <div class="cs-blend-head"><span class="cs-dot" style="background:#C9CF6B"></span><h4>Moment<small>Shizuoka · 40g</small></h4><span class="cs-special-price">$24</span></div>
       <div class="cs-blend-tags"><span class="cs-tag">1st & 2nd harvest</span><span class="cs-tag">4 cultivars</span></div>
       <ul class="cs-chips" aria-label="Cultivars"><li>Yabukita</li><li>Saemidori</li><li>Okumidori</li><li>Saeakari</li></ul>
       <dl>
@@ -445,7 +472,7 @@ date: 2026-11-03
     </div>
 
     <div class="cs-special" id="eve">
-      <div class="cs-blend-head"><span class="cs-dot" style="background:#1E5A2E"></span><h4>Eve<small>Shizuoka · 40g</small></h4></div>
+      <div class="cs-blend-head"><span class="cs-dot" style="background:#1E5A2E"></span><h4>Eve<small>Shizuoka · 40g</small></h4><span class="cs-special-price">$32</span></div>
       <div class="cs-blend-tags"><span class="cs-tag">1st harvest only</span><span class="cs-tag">4 cultivars</span></div>
       <ul class="cs-chips" aria-label="Cultivars"><li>Yabukita</li><li>Okumidori</li><li>Tsuyuhikari</li><li>Saemidori</li></ul>
       <dl>
@@ -455,7 +482,7 @@ date: 2026-11-03
     </div>
 
     <div class="cs-special" id="still">
-      <div class="cs-blend-head"><span class="cs-dot" style="background:#5E9E34"></span><h4>Still<small>Uji, Kyoto · 40g</small></h4></div>
+      <div class="cs-blend-head"><span class="cs-dot" style="background:#5E9E34"></span><h4>Still<small>Uji, Kyoto · 40g</small></h4><span class="cs-special-price">$43</span></div>
       <div class="cs-blend-tags"><span class="cs-tag">1st harvest only</span><span class="cs-tag">2 cultivars</span></div>
       <ul class="cs-chips" aria-label="Cultivars"><li>Okumidori</li><li>Yabukita</li></ul>
       <dl>
@@ -479,9 +506,30 @@ date: 2026-11-03
           <tr><th scope="row">Cultivars</th><td>Yabukita, Saemidori, Okumidori, Saeakari</td><td>Yabukita, Okumidori, Tsuyuhikari, Saemidori</td><td>Okumidori, Yabukita</td></tr>
           <tr><th scope="row">Declared profile</th><td>Mineral, rounded, smooth</td><td>Balanced, full-bodied, silky</td><td>Deep umami, nutty, creamy</td></tr>
           <tr><th scope="row">Powder colour</th><td>Soft green leaning yellow</td><td>Deep, vibrant emerald</td><td>Bright green, slightly lighter than Eve</td></tr>
+          <tr><th scope="row">Price</th><td>$24</td><td>$32</td><td>$43</td></tr>
           <tr><th scope="row">Tin size</th><td>40g</td><td>40g</td><td>40g</td></tr>
         </tbody>
       </table>
+    </div>
+  </section>
+
+  <!-- Where to buy -->
+  <section class="cs-info" id="buy">
+    <h2>Where to buy</h2>
+    <p class="cs-lede">Official prices per 40g tin:</p>
+    <ul class="cs-prices">
+      <li><span class="cs-item">Moment <small>Shizuoka</small></span><span class="cs-dots"></span><span class="cs-price">$24</span></li>
+      <li><span class="cs-item">Eve <small>Shizuoka</small></span><span class="cs-dots"></span><span class="cs-price">$32</span></li>
+      <li><span class="cs-item">Still <small>Uji, Kyoto</small></span><span class="cs-dots"></span><span class="cs-price">$43</span></li>
+    </ul>
+    <dl>
+      <dt>Official site</dt>
+      <dd><a href="https://eientea.com" target="_blank" rel="noopener">eientea.com</a></dd>
+      <dt>Also on</dt>
+      <dd>Shopee and Lazada</dd>
+    </dl>
+    <div class="cs-shops">
+      <a class="cs-map" href="https://eientea.com" target="_blank" rel="noopener">Shop on eientea.com</a>
     </div>
   </section>
 
