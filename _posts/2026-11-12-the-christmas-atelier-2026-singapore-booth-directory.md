@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Christmas Atelier 2026 Singapore: Complete Booth Directory & Matcha Guide"
+title: "Creamie Sippies at The Christmas Atelier 2026: Menu, Prices & Festive Review"
 date: 2026-11-12
 ---
 
@@ -325,46 +325,66 @@ date: 2026-11-12
   .cs-board-xmas .cs-chips li { background: transparent; color: #fff; border-color: var(--banana); }
   .cs .cs-dir a .cs-count { display: inline; font-weight: 400; color: #6b6550; margin: 0 0 0 4px; font-size: 12px; }
   @media (max-width: 600px) { .cs-booth-list { grid-template-columns: 1fr; } }
+
+  /* Creamie Christmas additions */
+  .cs-crosslinks { display: grid; gap: 8px; margin: 0 0 16px; }
+  .cs-crosslinks .cs-crosslink { margin: 0; }
+  .cs-special-head .cs-special-price { margin-left: auto; }
 </style>
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Event",
-  "name": "The Christmas Atelier 2026",
-  "description": "Complete booth directory and brand guide for The Christmas Atelier 2026 at Marina Bay Sands Expo & Convention Centre, featuring over 130 F&B, matcha, specialty tea, fashion, beauty, and lifestyle brands.",
-  "image": "https://minionxmatcha.github.io/assets/logo.png",
-  "startDate": "2026-11-12",
-  "endDate": "2026-11-14",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "location": {
-    "@type": "Place",
-    "name": "Marina Bay Sands Expo & Convention Centre, Level 1, Hall C",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "10 Bayfront Avenue",
-      "addressLocality": "Singapore",
-      "postalCode": "018956",
-      "addressCountry": "SG"
+  "@graph": [
+    {
+      "@type": "Event",
+      "name": "Creamie Sippies Pop-Up at The Christmas Atelier 2026 (Booth 80)",
+      "description": "Creamie Sippies festive pop-up at Booth 80 of The Christmas Atelier 2026 in Marina Bay Sands, serving Toasted Marshmallow Wreath White Chocolate Matcha Lattes, Cranberry Peppermint Sparkling Ades, Signature Banana Pudding, and Assorted Christmas Cookie Boxes.",
+      "image": "https://img.youtube.com/vi/q4JCeIbk9Xk/hqdefault.jpg",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-14",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Marina Bay Sands Expo & Convention Centre, Level 1, Hall C (Booth 80)",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "10 Bayfront Avenue",
+          "addressLocality": "Singapore",
+          "postalCode": "018956",
+          "addressCountry": "SG"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "The Floral Atelier",
+        "url": "https://www.thefloralatelier.co"
+      },
+      "performer": {
+        "@type": "Organization",
+        "name": "Creamie Sippies"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "5.90",
+        "priceCurrency": "SGD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://minionxmatcha.github.io/2026/11/12/creamie-sippies-the-christmas-atelier-2026-review.html"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Creamie Sippies at The Christmas Atelier 2026 (Booth 80)",
+      "description": "Testing Creamie Sippies' Christmas specials at Booth 80 of The Christmas Atelier 2026: Toasted Marshmallow Wreath White Chocolate Matcha Latte, Cranberry Peppermint Sparkling Ade, Original Banana Pudding, and Assorted Christmas Cookie Box.",
+      "thumbnailUrl": [
+        "https://img.youtube.com/vi/q4JCeIbk9Xk/hqdefault.jpg"
+      ],
+      "uploadDate": "2026-11-12",
+      "contentUrl": "https://www.youtube.com/shorts/q4JCeIbk9Xk",
+      "embedUrl": "https://www.youtube.com/embed/q4JCeIbk9Xk"
     }
-  },
-  "organizer": {
-    "@type": "Organization",
-    "name": "The Floral Atelier",
-    "url": "https://www.thefloralatelier.co"
-  },
-  "performer": {
-    "@type": "Organization",
-    "name": "Kashinoki Matcha, Creamie Sippies, Antea Social, Hello Arigato, Mariage Frères Tea, Fossa Chocolate, Mr. Bucket Chocolaterie"
-  },
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "SGD",
-    "availability": "https://schema.org/InStock",
-    "url": "https://minionxmatcha.github.io/2026/11/12/the-christmas-atelier-2026-singapore-booth-directory.html"
-  }
+  ]
 }
 </script>
 
@@ -388,272 +408,134 @@ date: 2026-11-12
   <!-- Hero -->
   <header class="cs-hero">
     <div class="cs-hero-top">
-      <h1 class="cs-title">The Christmas Atelier 2026: Complete Booth Directory</h1>
-      <p class="cs-where">Sands Expo Hall C · 12 – 14 Nov 2026 · 130+ booths</p>
+      <h1 class="cs-title">Creamie Sippies at The Christmas Atelier 2026: Menu & Festive Review</h1>
+      <p class="cs-where">Booth 80 · Sands Expo Hall C · 12 – 14 Nov 2026 only</p>
     </div>
     <div class="cs-counters">
-      <a class="cs-counter cs-counter-matcha" href="#matcha" style="text-decoration:none;color:#fff;">
-        <span class="cs-counter-emoji" aria-hidden="true">🍵</span>
-        <strong>Matcha & tea first</strong>
-        <span class="cs-from">7 tea stops with booth numbers</span>
-      </a>
-      <a class="cs-counter cs-counter-banana" href="#all-booths" style="text-decoration:none;color:var(--ink);">
+      <a class="cs-counter cs-counter-matcha" href="#menu" style="text-decoration:none;color:#fff;">
         <span class="cs-counter-emoji" aria-hidden="true">🎄</span>
-        <strong>Every booth</strong>
-        <span class="cs-from">F&B, fashion, beauty, lifestyle & more</span>
+        <strong>Holiday drinks</strong>
+        <span class="cs-from">$8.90 – $10.90</span>
+      </a>
+      <a class="cs-counter cs-counter-banana" href="#cookies" style="text-decoration:none;color:var(--ink);">
+        <span class="cs-counter-emoji" aria-hidden="true">🍪</span>
+        <strong>Christmas cookie box</strong>
+        <span class="cs-from">6 flavours · $67.90</span>
       </a>
     </div>
   </header>
 
-  <p><strong>The Christmas Atelier 2026</strong> returns to <strong>Marina Bay Sands Expo & Convention Centre, Level 1, Hall C</strong> from <strong>12 to 14 November 2026</strong>. With over 130 curated booths across gourmet food and drink, specialty matcha and tea, artisanal bakes, fashion, beauty and lifestyle, here is the complete categorised booth directory to help you navigate the event floor.</p>
+  <p><strong>Creamie Sippies</strong> has set up shop at <strong>Booth 80</strong> for <strong>The Christmas Atelier 2026</strong> (12 – 14 November 2026 at Marina Bay Sands Expo & Convention Centre, Level 1, Hall C). Alongside their cult-favourite banana pudding, they have rolled out an exclusive three-day festive lineup featuring blowtorched marshmallow wreaths, white chocolate matcha made with real Belgian cocoa butter, and 6-flavour Christmas cookie gift boxes.</p>
 
-  <!-- Category directory -->
-  <nav aria-label="Jump to a category" id="all-booths">
-    <ul class="cs-dir">
-      <li><a href="#matcha">🍵 Matcha & tea<span class="cs-count">(7)</span></a></li>
-      <li><a href="#showcase">🎄 Floral Atelier<span class="cs-count">(8)</span></a></li>
-      <li><a href="#fnb">🍽️ Food & drinks<span class="cs-count">(30)</span></a></li>
-      <li><a href="#fashion">👗 Fashion<span class="cs-count">(35)</span></a></li>
-      <li><a href="#accessories">💍 Accessories<span class="cs-count">(16)</span></a></li>
-      <li><a href="#beauty">💄 Beauty<span class="cs-count">(14)</span></a></li>
-      <li><a href="#lifestyle">🕯️ Lifestyle<span class="cs-count">(13)</span></a></li>
-      <li><a href="#kids">🧸 Kids<span class="cs-count">(11)</span></a></li>
-      <li><a href="#more">🧘 Wellness, activities & pets<span class="cs-count">(9)</span></a></li>
-    </ul>
-  </nav>
+  <div class="cs-crosslinks">
+    <p class="cs-crosslink">🎄 <strong>Exploring the rest of the event?</strong> See the <a href="/2026/11/12/the-christmas-atelier-2026-singapore-booth-directory.html">complete Christmas Atelier 2026 booth directory</a>.</p>
+    <p class="cs-crosslink">🍌 <strong>Can't make it?</strong> Visit their <a href="/2026/09/25/creamie-sippies-bugis-street.html">Bugis Street stall</a> or <a href="/2026/01/25/creamie-sippies-jewel-changi-airport.html">Jewel Changi flagship</a> instead.</p>
+  </div>
 
-  <!-- Matcha & tea -->
-  <section class="cs-board cs-board-matcha" id="matcha">
-    <h2>🍵 Matcha, specialty tea & non-alcoholic drinks</h2>
-    <p class="cs-lede">Start here if you're on a matcha hunt.</p>
-    <ul class="cs-booth-list">
-      <li><span class="cs-bname">Antea Social</span><span class="cs-bnum">Booth 126</span></li>
-      <li><span class="cs-bname">Creamie Sippies <a href="/2026/09/25/creamie-sippies-bugis-street.html">our review</a></span><span class="cs-bnum">Booth 80</span></li>
-      <li><span class="cs-bname">HIC</span><span class="cs-bnum">Booth 115</span></li>
-      <li><span class="cs-bname">Kashinoki Matcha</span><span class="cs-bnum">Booth 116</span></li>
-      <li><span class="cs-bname">Soi Coco</span><span class="cs-bnum">Booth 64</span></li>
-      <li><span class="cs-bname">Tily Tea &amp; The Gifting Studio</span><span class="cs-bnum">Booth 72</span></li>
-      <li><span class="cs-bname">Mariage Frères Tea</span><span class="cs-bnum cs-bnum-show">The Floral Atelier Showcase</span></li>
-    </ul>
-    <p class="cs-note">🍵 Also worth a stop: <strong>Hello Arigato (Booth 95)</strong> is listed under bakes, but it serves single-origin matcha drinks too. See <a href="/2026/11/05/singapore-coffee-week-2026-matcha-booths-guide.html#hello-arigato">their Coffee Week menu</a>.</p>
+  <!-- Video -->
+  <section class="cs-video">
+    <h2>Watch the video review</h2>
+
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Dfo1eHPOHN5/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:20px; box-shadow:0 0 0 2px #2A2616; margin: 0 auto; max-width: 360px; min-width: 280px; padding: 0; width: 100%;"></blockquote>
+    <script async src="//www.instagram.com/embed.js"></script>
+
+    <a class="cs-btn" href="https://www.instagram.com/reel/Dfo1eHPOHN5/" target="_blank" rel="noopener">Follow & watch on Instagram</a>
+
+    <!-- YouTube Shorts embed (preserves the Google video search badge) -->
+    <p class="cs-alt">Prefer YouTube? Watch the Short here:</p>
+    <div class="cs-yt-frame">
+      <iframe
+        src="https://www.youtube.com/embed/q4JCeIbk9Xk"
+        title="The Christmas Atelier Creamie Sippies Review"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <p class="cs-more">
+      <a href="https://vt.tiktok.com/ZSpH38hC2/" target="_blank" rel="noopener">Watch on TikTok</a>
+      &nbsp;or&nbsp;
+      <a href="https://www.facebook.com/share/r/1C51pjx2z8/" target="_blank" rel="noopener">watch on Facebook</a>
+    </p>
   </section>
 
-  <!-- Floral Atelier showcase -->
-  <section class="cs-board cs-board-xmas" id="showcase">
-    <h2>🎄 The Floral Atelier (curated showcase)</h2>
-    <p class="cs-lede">A curated showcase area with no individual booth numbers.</p>
-    <ul class="cs-chips">
-      <li>Bordallo Pinheiro</li>
-      <li>Dolce &amp; Gabbana</li>
-      <li>Evermore Candles</li>
-      <li>Mariage Frères Tea</li>
-      <li>Mon Dada Candles</li>
-      <li>Prada</li>
-      <li>The Floral Atelier Collection</li>
-      <li>To&#x27;ak Luxury Chocolate</li>
+  <!-- Menu -->
+  <section class="cs-board cs-board-banana" id="menu">
+    <span class="cs-booth">Booth 80</span>
+    <h2>🎄 Full pop-up menu & prices</h2>
+
+    <h3 class="cs-sub">Holiday drinks</h3>
+    <ul class="cs-prices">
+      <li><span class="cs-item">Toasted Marshmallow Wreath White Chocolate Matcha Latte</span><span class="cs-dots"></span><span class="cs-price">$10.90</span></li>
+      <li><span class="cs-item">Cranberry Peppermint Sparkling Ade</span><span class="cs-dots"></span><span class="cs-price">$8.90</span></li>
     </ul>
+
+    <h3 class="cs-sub">Signature drinks</h3>
+    <ul class="cs-prices">
+      <li><span class="cs-item">Classic Matcha Latte</span><span class="cs-dots"></span><span class="cs-price">$8.90</span></li>
+      <li><span class="cs-item">Sea Salt Maple Matcha Latte <small>(savoury-sweet maple foam)</small></span><span class="cs-dots"></span><span class="cs-price">$9.90</span></li>
+    </ul>
+
+    <h3 class="cs-sub">Dessert & bakes</h3>
+    <ul class="cs-prices">
+      <li><span class="cs-item">Original Banana Pudding <small>(with festive sprinkles)</small></span><span class="cs-dots"></span><span class="cs-price">$5.90</span></li>
+      <li><span class="cs-item">Assorted Christmas Cookie Box <small>(6 flavours)</small></span><span class="cs-dots"></span><span class="cs-price">$67.90</span></li>
+    </ul>
+
+    <h3 class="cs-sub">Milk options</h3>
+    <ul class="cs-prices">
+      <li><span class="cs-item">Fresh milk</span><span class="cs-dots"></span><span class="cs-price">Included</span></li>
+      <li><span class="cs-item">Oat milk upgrade</span><span class="cs-dots"></span><span class="cs-price">+$1.00</span></li>
+    </ul>
+    <p class="cs-note">🍵 All matcha drinks are slightly sweetened by default.</p>
   </section>
 
-  <!-- F&B -->
-  <section class="cs-board cs-board-banana" id="fnb">
-    <h2>🍽️ Food & drinks</h2>
-    <h3 class="cs-sub">🥐 Artisanal bakes, pastries & patisserie</h3>
-    <ul class="cs-booth-list">
-      <li><span class="cs-bname">Bob The Baker Boy</span><span class="cs-bnum">Booth 69</span></li>
-      <li><span class="cs-bname">Butter Bread</span><span class="cs-bnum">Booth 118</span></li>
-      <li><span class="cs-bname">Cranki Patisserie</span><span class="cs-bnum">Booth 125</span></li>
-      <li><span class="cs-bname">Guilt Free Food</span><span class="cs-bnum">Booth 119</span></li>
-      <li><span class="cs-bname">Hello Arigato</span><span class="cs-bnum">Booth 95</span></li>
-      <li><span class="cs-bname">Kobashi</span><span class="cs-bnum">Booth 65</span></li>
-      <li><span class="cs-bname">Miss Van Dough</span><span class="cs-bnum">Booth 124</span></li>
-      <li><span class="cs-bname">Ollella</span><span class="cs-bnum">Booth 127</span></li>
-      <li><span class="cs-bname">Patisserie Woo</span><span class="cs-bnum">Booth 82</span></li>
-      <li><span class="cs-bname">Róa Midnight</span><span class="cs-bnum">Booth 67</span></li>
-      <li><span class="cs-bname">Sweedy Cafesserie</span><span class="cs-bnum">Booth 81</span></li>
-    </ul>
-    <h3 class="cs-sub">🍫 Chocolates, gelato & sweet confections</h3>
-    <ul class="cs-booth-list">
-      <li><span class="cs-bname">Berrybar</span><span class="cs-bnum">Booth 96</span></li>
-      <li><span class="cs-bname">Fossa Chocolate</span><span class="cs-bnum">Booth 62</span></li>
-      <li><span class="cs-bname">Mr. Bucket Chocolaterie</span><span class="cs-bnum">Booth 68</span></li>
-      <li><span class="cs-bname">SecondFloorLab Gelato</span><span class="cs-bnum">Booth 120</span></li>
-      <li><span class="cs-bname">Wu Tang Club</span><span class="cs-bnum">Booth 123</span></li>
-      <li><span class="cs-bname">To&#x27;ak Luxury Chocolate</span><span class="cs-bnum cs-bnum-show">The Floral Atelier Showcase</span></li>
-    </ul>
-    <h3 class="cs-sub">🧀 Savoury, cheese, condiments & gourmet pantry</h3>
-    <ul class="cs-booth-list">
-      <li><span class="cs-bname">Borderlessbutter</span><span class="cs-bnum">Booth 70</span></li>
-      <li><span class="cs-bname">Cheeselads</span><span class="cs-bnum">Booth 99</span></li>
-      <li><span class="cs-bname">Edit*</span><span class="cs-bnum">Booth 15</span></li>
-      <li><span class="cs-bname">Mireia</span><span class="cs-bnum">Booth 128</span></li>
-      <li><span class="cs-bname">Omollomo</span><span class="cs-bnum">Booth 117</span></li>
-      <li><span class="cs-bname">The Portside Market</span><span class="cs-bnum">Booth 23</span></li>
-      <li><span class="cs-bname">The Rare Honey Company</span><span class="cs-bnum">Booth 97</span></li>
-    </ul>
-    <h3 class="cs-sub">🍸 Craft spirits, whisky, gin & natural wines</h3>
-    <ul class="cs-booth-list">
-      <li><span class="cs-bname">Brass Lion Distillery</span><span class="cs-bnum">Booth 98</span></li>
-      <li><span class="cs-bname">Clumzy</span><span class="cs-bnum">Booth 66</span></li>
-      <li><span class="cs-bname">Distillius Craft Distillery</span><span class="cs-bnum">Booth 121</span></li>
-      <li><span class="cs-bname">East Asia Whisky</span><span class="cs-bnum">Booth 130</span></li>
-      <li><span class="cs-bname">Ghosts of the Ocean</span><span class="cs-bnum">Booth 129</span></li>
-      <li><span class="cs-bname">Whet Your Whistle</span><span class="cs-bnum">Booth 122</span></li>
-    </ul>
+  <!-- Tasting notes -->
+  <section class="cs-board cs-board-matcha">
+    <h2>👅 Tasting notes & festive highlights</h2>
+
+    <div class="cs-special">
+      <div class="cs-special-head"><h4>Toasted Marshmallow Wreath White Chocolate Matcha Latte</h4><span class="cs-special-price">$10.90</span></div>
+      <div class="cs-tag-row"><span class="cs-tag">Holiday special</span><span class="cs-tag">Torched to order</span></div>
+      <p>Freshly whisked matcha layered over milk and ice, crowned with a piped marshmallow cream wreath that's blowtorched to order and finished with festive sprinkles. The real <strong>Belgian cocoa butter</strong> gives it a remarkably rich, velvety, buttery mouthfeel. The caramelised, toasty marshmallow top pairs smoothly with the creamy white chocolate base, while the earthy matcha still peeks through.</p>
+    </div>
+
+    <div class="cs-special">
+      <div class="cs-special-head"><h4>Cranberry Peppermint Sparkling Ade</h4><span class="cs-special-price">$8.90</span></div>
+      <div class="cs-tag-row"><span class="cs-tag">Holiday special</span><span class="cs-tag">Non-dairy</span></div>
+      <p>A crisp holiday refresher. Bright, fizzy sparkling water lifts the sweet-tart cranberry compote, complete with real cranberry bits, before a cool peppermint finish.</p>
+    </div>
+
+    <div class="cs-special">
+      <div class="cs-special-head"><h4>Original Banana Pudding</h4><span class="cs-special-price">$5.90</span></div>
+      <div class="cs-tag-row"><span class="cs-tag">Signature</span></div>
+      <p>Creamie Sippies' signature creamy banana pudding layered with vanilla wafers and dressed up with red, green and gold Christmas sprinkles.</p>
+    </div>
+
+    <div class="cs-special" id="cookies">
+      <div class="cs-special-head"><h4>Assorted Christmas Cookie Box</h4><span class="cs-special-price">$67.90</span></div>
+      <div class="cs-tag-row"><span class="cs-tag">Gift box</span><span class="cs-tag">6 flavours</span></div>
+      <p>Packed in a festive gift box, ideal for holiday gatherings.</p>
+      <ul class="cs-chips" aria-label="Cookie flavours">
+        <li>Matcha Sablé</li><li>Houjicha Gingerbread Crinkle</li><li>Dark Chocolate Fudge</li><li>Triple Chocolate Chip</li><li>Blueberry Shortbread</li><li>Coffee Nutella Thumbprint</li>
+      </ul>
+    </div>
   </section>
 
-  <section class="cs-board cs-board-banana" id="fashion">
-    <h2>👗 Fashion</h2>
-    <ul class="cs-booth-list">
-      <li><span class="cs-bname">Aijek</span><span class="cs-bnum">Booth 54</span></li>
-      <li><span class="cs-bname">Akinn</span><span class="cs-bnum">Booth 63</span></li>
-      <li><span class="cs-bname">Ans.Ein</span><span class="cs-bnum">Booth 43</span></li>
-      <li><span class="cs-bname">As Intended</span><span class="cs-bnum">Booth 111</span></li>
-      <li><span class="cs-bname">Atlas Kind</span><span class="cs-bnum">Booth 53</span></li>
-      <li><span class="cs-bname">Bridge &amp; Bella</span><span class="cs-bnum">Booth 27</span></li>
-      <li><span class="cs-bname">Bound Designs</span><span class="cs-bnum">Booth 28</span></li>
-      <li><span class="cs-bname">Bubsmamy</span><span class="cs-bnum">Booth 35</span></li>
-      <li><span class="cs-bname">Chello</span><span class="cs-bnum">Booth 90</span></li>
-      <li><span class="cs-bname">Eltwine</span><span class="cs-bnum">Booth 113</span></li>
-      <li><span class="cs-bname">Etna</span><span class="cs-bnum">Booth 110</span></li>
-      <li><span class="cs-bname">House of Abr</span><span class="cs-bnum">Booth 44</span></li>
-      <li><span class="cs-bname">Like Saturdays</span><span class="cs-bnum">Booth 76</span></li>
-      <li><span class="cs-bname">Ohhgranny</span><span class="cs-bnum">Booth 13</span></li>
-      <li><span class="cs-bname">Olive Basics</span><span class="cs-bnum">Booth 45</span></li>
-      <li><span class="cs-bname">Paper Palette Studio</span><span class="cs-bnum">Booth 93</span></li>
-      <li><span class="cs-bname">Paopao</span><span class="cs-bnum">Booth 57</span></li>
-      <li><span class="cs-bname">Rawbought</span><span class="cs-bnum">Booth 40</span></li>
-      <li><span class="cs-bname">Ryan Lee Kuala Lumpur</span><span class="cs-bnum">Booth 56</span></li>
-      <li><span class="cs-bname">Sabrinagoh</span><span class="cs-bnum">Booth 94</span></li>
-      <li><span class="cs-bname">Second Sons</span><span class="cs-bnum">Booth 109</span></li>
-      <li><span class="cs-bname">Selenightco</span><span class="cs-bnum">Booth 75</span></li>
-      <li><span class="cs-bname">Sensibilities</span><span class="cs-bnum">Booth 91</span></li>
-      <li><span class="cs-bname">Stolen</span><span class="cs-bnum">Booth 55</span></li>
-      <li><span class="cs-bname">Studio Gypsied</span><span class="cs-bnum">Booth 112</span></li>
-      <li><span class="cs-bname">Studio Qiling</span><span class="cs-bnum">Booth 47</span></li>
-      <li><span class="cs-bname">Talking Toes</span><span class="cs-bnum">Booth 20</span></li>
-      <li><span class="cs-bname">The Cotton Tale</span><span class="cs-bnum">Booth 87</span></li>
-      <li><span class="cs-bname">The Form</span><span class="cs-bnum">Booth 42</span></li>
-      <li><span class="cs-bname">The Good Apparel</span><span class="cs-bnum">Booth 3</span></li>
-      <li><span class="cs-bname">The Ordinary Co</span><span class="cs-bnum">Booth 31</span></li>
-      <li><span class="cs-bname">The Shirt Bar</span><span class="cs-bnum">Booth 2</span></li>
-      <li><span class="cs-bname">Tow Tow</span><span class="cs-bnum">Booth 19</span></li>
-      <li><span class="cs-bname">Tria The Label</span><span class="cs-bnum">Booth 39</span></li>
-      <li><span class="cs-bname">Wūhaūs</span><span class="cs-bnum">Booth 51</span></li>
-    </ul>
-  </section>
-
-  <section class="cs-board cs-board-matcha" id="accessories">
-    <h2>💍 Accessories</h2>
-    <ul class="cs-booth-list">
-      <li><span class="cs-bname">5ive Letters</span><span class="cs-bnum">Booth 6</span></li>
-      <li><span class="cs-bname">Carrie K.</span><span class="cs-bnum">Booth 50</span></li>
-      <li><span class="cs-bname">Cheru Crystals</span><span class="cs-bnum">Booth 61</span></li>
-      <li><span class="cs-bname">Dear Diary Co.</span><span class="cs-bnum">Booth 60</span></li>
-      <li><span class="cs-bname">Embrace Jewellery</span><span class="cs-bnum">Booth 49</span></li>
-      <li><span class="cs-bname">Envet</span><span class="cs-bnum">Booth 37</span></li>
-      <li><span class="cs-bname">Euniqyou</span><span class="cs-bnum">Booth 5</span></li>
-      <li><span class="cs-bname">Forbidden Hill</span><span class="cs-bnum">Booth 4</span></li>
-      <li><span class="cs-bname">Ivonovi Jewellery</span><span class="cs-bnum">Booth 7</span></li>
-      <li><span class="cs-bname">Locket Allegro</span><span class="cs-bnum">Booth 25</span></li>
-      <li><span class="cs-bname">Myrrh</span><span class="cs-bnum">Booth 38</span></li>
-      <li><span class="cs-bname">Nakedglory</span><span class="cs-bnum">Booth 108</span></li>
-      <li><span class="cs-bname">Ourheartbeads</span><span class="cs-bnum">Booth 12</span></li>
-      <li><span class="cs-bname">Sunnysde</span><span class="cs-bnum">Booth 52</span></li>
-      <li><span class="cs-bname">Wherebilly</span><span class="cs-bnum">Booth 114</span></li>
-      <li><span class="cs-bname">Yard Yarn</span><span class="cs-bnum">Booth 88</span></li>
-    </ul>
-  </section>
-
-  <section class="cs-board cs-board-banana" id="beauty">
-    <h2>💄 Beauty</h2>
-    <ul class="cs-booth-list">
-      <li><span class="cs-bname">Alaaya Skin</span><span class="cs-bnum">Booth 14</span></li>
-      <li><span class="cs-bname">Aporenaturals</span><span class="cs-bnum">Booth 1</span></li>
-      <li><span class="cs-bname">Bycaxs</span><span class="cs-bnum">Booth 85</span></li>
-      <li><span class="cs-bname">Clean Folks Club</span><span class="cs-bnum">Booth 71</span></li>
-      <li><span class="cs-bname">Elleco Beauty</span><span class="cs-bnum">Booth 89</span></li>
-      <li><span class="cs-bname">Gentle Therapy</span><span class="cs-bnum">Booth 78</span></li>
-      <li><span class="cs-bname">Handmade Heroes</span><span class="cs-bnum">Booth 74</span></li>
-      <li><span class="cs-bname">Ingu Skin</span><span class="cs-bnum">Booth 48</span></li>
-      <li><span class="cs-bname">Nodspark</span><span class="cs-bnum">Booth 24</span></li>
-      <li><span class="cs-bname">Postcard</span><span class="cs-bnum">Booth 22</span></li>
-      <li><span class="cs-bname">Romi Beauty</span><span class="cs-bnum">Booth 41</span></li>
-      <li><span class="cs-bname">Sukoon</span><span class="cs-bnum">Booth 59</span></li>
-      <li><span class="cs-bname">The Daily Press</span><span class="cs-bnum">Booth 11</span></li>
-      <li><span class="cs-bname">The Powder Shampoo</span><span class="cs-bnum">Booth 10</span></li>
-    </ul>
-  </section>
-
-  <section class="cs-board cs-board-matcha" id="lifestyle">
-    <h2>🕯️ Lifestyle</h2>
-    <ul class="cs-booth-list">
-      <li><span class="cs-bname">Bask In The Glow</span><span class="cs-bnum">Booth 29</span></li>
-      <li><span class="cs-bname">Bynd Artisan</span><span class="cs-bnum">Booth 46</span></li>
-      <li><span class="cs-bname">Cherry Pie Farmhouse</span><span class="cs-bnum">Booth 83</span></li>
-      <li><span class="cs-bname">Chezhemdi</span><span class="cs-bnum">Booth 18</span></li>
-      <li><span class="cs-bname">Fushi Maison</span><span class="cs-bnum">Booth 79</span></li>
-      <li><span class="cs-bname">Inwarmregard</span><span class="cs-bnum">Booth 21</span></li>
-      <li><span class="cs-bname">Kinu Supply</span><span class="cs-bnum">Booth 8</span></li>
-      <li><span class="cs-bname">Love Curates Studio</span><span class="cs-bnum">Booth 36</span></li>
-      <li><span class="cs-bname">Papercranes Design</span><span class="cs-bnum">Booth 30</span></li>
-      <li><span class="cs-bname">Scent Journer</span><span class="cs-bnum">Booth 77</span></li>
-      <li><span class="cs-bname">The Squishy Town</span><span class="cs-bnum">Booth 105</span></li>
-      <li><span class="cs-bname">Urban Li&#x27;l</span><span class="cs-bnum">Booth 34</span></li>
-      <li><span class="cs-bname">Wearesuper</span><span class="cs-bnum">Booth 58</span></li>
-    </ul>
-  </section>
-
-  <section class="cs-board cs-board-banana" id="kids">
-    <h2>🧸 Kids</h2>
-    <ul class="cs-booth-list">
-      <li><span class="cs-bname">Cosoco Kids</span><span class="cs-bnum">Booth 101</span></li>
-      <li><span class="cs-bname">Evryday Studios</span><span class="cs-bnum">Booth 17</span></li>
-      <li><span class="cs-bname">Fennec Folk</span><span class="cs-bnum">Booth 107</span></li>
-      <li><span class="cs-bname">House of Holly</span><span class="cs-bnum">Booth 26</span></li>
-      <li><span class="cs-bname">Mellow</span><span class="cs-bnum">Booth 103</span></li>
-      <li><span class="cs-bname">Momoka</span><span class="cs-bnum">Booth 102</span></li>
-      <li><span class="cs-bname">Petit Beary</span><span class="cs-bnum">Booth 104</span></li>
-      <li><span class="cs-bname">Poppy James</span><span class="cs-bnum">Booth 33</span></li>
-      <li><span class="cs-bname">Soft Spot</span><span class="cs-bnum">Booth 100</span></li>
-      <li><span class="cs-bname">These Tiny Things</span><span class="cs-bnum">Booth 32</span></li>
-      <li><span class="cs-bname">Tiny Dots Wonder</span><span class="cs-bnum">Booth 106</span></li>
-    </ul>
-  </section>
-
-  <section class="cs-board cs-board-matcha" id="more">
-    <h2>🧘 Wellness, activities & pets</h2>
-    <h3 class="cs-sub">🧘‍♀️ Health & fitness</h3>
-    <ul class="cs-booth-list">
-      <li><span class="cs-bname">Cheak</span><span class="cs-bnum">Booth 92</span></li>
-      <li><span class="cs-bname">Company of Wellness</span><span class="cs-bnum">Booth 86</span></li>
-      <li><span class="cs-bname">Moom Health</span><span class="cs-bnum">Booth 73</span></li>
-      <li><span class="cs-bname">Nestbloom</span><span class="cs-bnum">Booth 84</span></li>
-    </ul>
-    <h3 class="cs-sub">🎨 Activities</h3>
-    <ul class="cs-booth-list">
-      <li><span class="cs-bname">David&#x27;s Henna Art</span><span class="cs-bnum">Booth 131</span></li>
-      <li><span class="cs-bname">OIC Singapore</span><span class="cs-bnum">Booth 133</span></li>
-      <li><span class="cs-bname">Poison Studio</span><span class="cs-bnum">Booth 132</span></li>
-    </ul>
-    <h3 class="cs-sub">🐾 Pets</h3>
-    <ul class="cs-booth-list">
-      <li><span class="cs-bname">Gentle Pet Store</span><span class="cs-bnum">Booth 16</span></li>
-      <li><span class="cs-bname">Vetreska</span><span class="cs-bnum">Booth 9</span></li>
-    </ul>
-  </section>
-
-  <!-- Event details -->
+  <!-- Event & booth details -->
   <section class="cs-info">
-    <h2>Event details</h2>
+    <h2>Event & booth details</h2>
     <dl>
+      <dt>Booth</dt>
+      <dd>Creamie Sippies, Booth 80</dd>
       <dt>Event</dt>
       <dd>The Christmas Atelier 2026</dd>
       <dt>Dates</dt>
-      <dd>12 – 14 November 2026</dd>
+      <dd>12 – 14 November 2026<br>Thursday to Saturday, 3 days only</dd>
       <dt>Venue</dt>
       <dd>Marina Bay Sands Expo & Convention Centre<br>Level 1, Hall C, 10 Bayfront Avenue</dd>
-      <dt>Organiser</dt>
-      <dd>The Floral Atelier</dd>
+      <dt>Entry</dt>
+      <dd>Tickets required</dd>
     </dl>
     <a class="cs-map" href="https://www.google.com/maps/search/?api=1&query=Sands+Expo+and+Convention+Centre+10+Bayfront+Avenue+Singapore+018956" target="_blank" rel="noopener">Open in Google Maps</a>
   </section>
