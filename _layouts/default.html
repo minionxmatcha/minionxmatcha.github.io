@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  {% feed_meta %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@600;800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0; background: #FFFCF2; color: #2A2616;
+      font-family: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+    }
+    .site-wrap { box-sizing: border-box; max-width: 672px; margin: 0 auto; padding: 16px 16px 8px; }
+    .site-wrap img { max-width: 100%; height: auto; }
+    .site-back {
+      display: inline-block; margin: 4px 0 14px; padding: 7px 14px; border-radius: 999px;
+      border: 2px solid #2A2616; background: #fff; color: #2A2616; text-decoration: none;
+      font-weight: 700; font-size: 14px;
+    }
+    .site-back:hover { background: #FFF4C7; }
+    .site-back:focus-visible { outline: 3px solid #3A6EA5; outline-offset: 3px; }
+    .site-foot { box-sizing: border-box; max-width: 672px; margin: 0 auto; padding: 8px 16px 40px; text-align: center; font-size: 13px; color: #6b6550; }
+    .site-foot a { color: #6b6550; }
+  </style>
+</head>
+<body>
+  <main class="site-wrap">
+    {% unless page.url == "/" %}
+    <a class="site-back" href="{{ '/' | relative_url }}">← All reviews & guides</a>
+    {% endunless %}
+    {{ content }}
+  </main>
+  <footer class="site-foot">
+    © {{ site.time | date: "%Y" }} minionxmatcha ·
+    <a href="https://www.instagram.com/minionxmatcha" target="_blank" rel="noopener">Instagram</a> ·
+    <a href="https://www.tiktok.com/@minionxmatcha" target="_blank" rel="noopener">TikTok</a> ·
+    <a href="https://www.facebook.com/p/Minionxmatcha-61592062657121/" target="_blank" rel="noopener">Facebook</a> ·
+    <a href="https://www.youtube.com/@minionxmatcha" target="_blank" rel="noopener">YouTube</a>
+  </footer>
+</body>
+</html>
