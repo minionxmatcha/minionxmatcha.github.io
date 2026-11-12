@@ -1,13 +1,28 @@
-title: Minion x Matcha
-description: Matcha reviews, cafe menus, and event guides in Singapore.
+title: minionxmatcha
+description: Matcha reviews, cafe walkthroughs & tea guides in Singapore.
 url: "https://minionxmatcha.github.io"
 baseurl: ""
+lang: en-SG
 
+# Read post dates in Singapore time (stops early-morning posts showing 404)
+timezone: Asia/Singapore
+
+# Keep the original .html post addresses so old links keep working
+permalink: /:year/:month/:day/:title:output_ext
+
+# Fallback only: your own layouts in _layouts/ are used first
 theme: minima
 
-# Optional: Social links in footer
-instagram_username: minionxmatcha
-tiktok_username: minionxmatcha
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
 
-# Clean URLs for posts
-permalink: /:year/:month/:day/:title/
+# Used by Google and link previews
+social:
+  name: minionxmatcha
+  links:
+    - https://www.instagram.com/minionxmatcha
+    - https://www.tiktok.com/@minionxmatcha
+    - https://www.facebook.com/p/Minionxmatcha-61592062657121/
+    - https://www.youtube.com/@minionxmatcha
