@@ -367,7 +367,21 @@ date: 2026-11-20
   .cs-vs .cs-chips li { font-size: 12px; padding: 2px 9px; }
   .cs-jade { display: inline-block; width: 16px; height: 16px; border-radius: 50%; border: 1.5px solid var(--ink); background: #2E7D4F; vertical-align: -3px; margin-right: 6px; }
   .cs-check { display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 9px; border-radius: 999px; border: 1.5px solid var(--ink); background: var(--foam); color: var(--matcha-deep); white-space: nowrap; }
-  @media (max-width: 600px) { .cs-tin-stats { grid-template-columns: 1fr; } }
+  [hidden] { display: none !important; }
+  .cs-timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  .cs .cs-timeline li { margin: 0; display: grid; grid-template-columns: 92px 1fr; gap: 14px; align-items: start; padding: 12px 14px; background: #fff; border: 1.5px solid var(--ink); border-radius: 16px; }
+  .cs-tl-date { display: block; text-align: center; padding: 6px 4px; border-radius: 12px; border: 1.5px solid var(--ink); background: #1C2B4F; color: #E5C77A; font-family: var(--display); font-weight: 800; font-size: 17px; line-height: 1.1; }
+  .cs-tl-date small { display: block; font-family: var(--body); font-weight: 700; font-size: 11px; color: #fff; margin-top: 2px; }
+  .cs-timeline h4 { font-family: var(--display); font-weight: 800; font-size: 17px; line-height: 1.2; margin: 0 0 4px; }
+  .cs-timeline p { margin: 0; font-size: 15px; }
+  .cs-cta { margin: 16px 0 0; padding: 16px 18px; border: 2px solid var(--ink); border-radius: 18px; background: var(--banana); }
+  .cs-cta strong { display: block; font-family: var(--display); font-weight: 800; font-size: 18px; margin-bottom: 4px; }
+  .cs-cta p { margin: 0 0 12px; font-size: 15px; }
+  .cs .cs-cta a.cs-cta-btn { display: inline-block; padding: 10px 18px; border-radius: 999px; background: #1C2B4F; color: #E5C77A; border: 2px solid var(--ink); font-weight: 700; text-decoration: none; }
+  .cs-alert { margin: 0 0 16px; padding: 12px 16px; border-radius: 16px; background: #1C2B4F; color: #fff; font-size: 14px; border: 2px solid var(--ink); }
+  .cs-alert strong { color: #E5C77A; }
+  .cs .cs-alert a { color: #E5C77A; }
+  @media (max-width: 600px) { .cs-tin-stats { grid-template-columns: 1fr; } .cs .cs-timeline li { grid-template-columns: 74px 1fr; gap: 12px; } }
 </style>
 
 <script type="application/ld+json">
@@ -448,13 +462,17 @@ date: 2026-11-20
   <section class="cs-tin">
     <span class="cs-tin-lid">Masters Collection · One-time release</span>
     <h2>Celebrating 10 years & 10 harvests</h2>
-    <p>Naoki Matcha's Tenth Harvest Matcha comes in a commemorative navy-blue tin with a gold lid, blended from <strong>Okumidori (おくみどり)</strong> and <strong>Saemidori (さえみどり)</strong> from <strong>Uji, Kyoto</strong>.</p>
+    <p>Naoki started in Singapore in 2016 with two friends. To mark ten years, the Tenth Harvest Matcha comes in a commemorative navy-blue tin with a gold lid, blended from <strong>Okumidori (おくみどり)</strong> and <strong>Saemidori (さえみどり)</strong> from <strong>Uji, Kyoto</strong>.</p>
     <div class="cs-tin-stats">
-      <div><strong>10</strong><span>Years & harvests</span></div>
+      <div><strong>200 tins</strong><span>For Singapore, one release only</span></div>
+      <div><strong>Spring 2026</strong><span>Harvest, Uji, Kyoto</span></div>
       <div><strong>2 cultivars</strong><span>Okumidori × Saemidori</span></div>
-      <div><strong>30g</strong><span>Navy & gold tin</span></div>
     </div>
   </section>
+
+  <p class="cs-alert" data-show-until="2026-11-26T22:00:00+08:00">⏰ <strong>Early access sign-ups close 26 Nov, 10pm.</strong> Sign-up list members can buy 72 hours before the public launch. <a href="#get-it">Here's how</a>.</p>
+  <p class="cs-alert" data-show-from="2026-11-26T22:00:00+08:00" data-show-until="2026-11-30T00:00:00+08:00" hidden>📅 <strong>Available to everyone from 30 Nov</strong> on Naoki's website. <a href="#get-it">Details</a>.</p>
+  <p class="cs-alert" data-show-from="2026-11-30T00:00:00+08:00" hidden>🛒 <strong>Now available</strong> on Naoki's website, while the 200 tins last. <a href="#get-it">Details</a>.</p>
 
   <p>I started out as a Naoki customer with a single spouted chawan in August 2024, and have since worked with them on collaborations across their lineup. Here's how this one-time celebratory release performs as both <strong>usucha</strong> and a <strong>full-cream iced latte</strong>.</p>
 
@@ -498,6 +516,19 @@ date: 2026-11-20
     </div>
   </section>
 
+  <!-- Story -->
+  <section class="cs-board cs-board-matcha">
+    <h2>🍃 The story behind the tin</h2>
+    <div class="cs-special">
+      <div class="cs-special-head"><h4>Blended by Mrs O in Uji</h4><span class="cs-tag">Master-trained</span></div>
+      <p>The blend comes from Mrs O, a younger Uji tea blender who trained under a recently retired tea master now in his 80s.</p>
+    </div>
+    <div class="cs-special">
+      <div class="cs-special-head"><h4>Bought together at auction</h4><span class="cs-tag">Spring 2026</span></div>
+      <p>Mrs O and Naoki bought the raw tencha leaf together at auction in spring 2026. She then blended and processed it into this one-time release.</p>
+    </div>
+  </section>
+
   <!-- Breakdown -->
   <section class="cs-board cs-board-banana">
     <h2>🔍 Preparation breakdown</h2>
@@ -520,6 +551,28 @@ date: 2026-11-20
     <p class="cs-note">💚 <strong>Verdict:</strong> enjoyable as a straight usucha, but this Okumidori–Saemidori blend truly comes alive in milk. If you're a latte lover looking for a commemorative tin that won't get muted by dairy, this one-time release is for you.</p>
   </section>
 
+  <!-- How to get it -->
+  <section class="cs-board cs-board-banana" id="get-it">
+    <h2>📅 How to get a tin</h2>
+    <p class="cs-lede">Only 200 tins are coming to Singapore. The price will be shared in Naoki's launch email.</p>
+    <ol class="cs-timeline">
+      <li><span class="cs-tl-date">26 Nov<small>10pm</small></span><div><h4>Early access sign-ups close</h4><p>Leave your email on Naoki's early access page. Signing up doesn't commit you to buying.</p></div></li>
+      <li><span class="cs-tl-date">27 Nov<small>Early access</small></span><div><h4>Sign-up list gets first dibs</h4><p>Everyone on the list can buy 72 hours before the public launch, and stands a chance to receive a free bamboo whisk.</p></div></li>
+      <li><span class="cs-tl-date">30 Nov<small>Public launch</small></span><div><h4>Available to everyone</h4><p>Tenth Harvest Matcha goes on sale to everyone through Naoki's website.</p></div></li>
+    </ol>
+
+    <div class="cs-cta" data-show-until="2026-11-26T22:00:00+08:00">
+      <strong>Want early access?</strong>
+      <p>Sign-ups close 26 Nov, 10pm, and the page comes down after that.</p>
+      <a class="cs-cta-btn" href="https://naokimatcha.asia/pages/tenth-harvest-matcha-early-access" target="_blank" rel="noopener">Sign up for early access</a>
+    </div>
+    <div class="cs-cta" data-show-from="2026-11-26T22:00:00+08:00" hidden>
+      <strong>Early access has closed</strong>
+      <p>Tenth Harvest Matcha is on sale to everyone from 30 November, while the 200 tins last.</p>
+      <a class="cs-cta-btn" href="https://naokimatcha.asia" target="_blank" rel="noopener">Visit Naoki Matcha</a>
+    </div>
+  </section>
+
   <!-- Specs -->
   <section class="cs-info">
     <h2>Specs</h2>
@@ -530,6 +583,12 @@ date: 2026-11-20
       <dd>Okumidori (おくみどり) & Saemidori (さえみどり)</dd>
       <dt>Origin</dt>
       <dd>Uji, Kyoto, Japan</dd>
+      <dt>Harvest</dt>
+      <dd>Spring 2026</dd>
+      <dt>Blender</dt>
+      <dd>Mrs O, Uji</dd>
+      <dt>Release</dt>
+      <dd>200 tins for Singapore, one time only</dd>
       <dt>Size</dt>
       <dd>30g navy-blue tin with gold lid</dd>
       <dt>Colour</dt>
@@ -540,3 +599,16 @@ date: 2026-11-20
   </section>
 
 </div>
+
+<script>
+  // Shows the right early-access message for today's date (Singapore time)
+  (function () {
+    var now = Date.now();
+    document.querySelectorAll('[data-show-until], [data-show-from]').forEach(function (el) {
+      var until = el.getAttribute('data-show-until');
+      var from = el.getAttribute('data-show-from');
+      var show = (!until || now < Date.parse(until)) && (!from || now >= Date.parse(from));
+      el.hidden = !show;
+    });
+  })();
+</script>
