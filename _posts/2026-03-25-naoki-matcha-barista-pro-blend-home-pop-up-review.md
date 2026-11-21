@@ -365,6 +365,25 @@ date: 2026-03-25
   .cs-menu .cs-chips a { color: var(--banana); }
   .cs-menu h3.cs-sub { color: #fff; }
   .cs-hue { display: inline-block; width: 14px; height: 14px; border-radius: 50%; border: 1.5px solid var(--ink); background: #2F7A3A; vertical-align: -2px; margin-right: 6px; }
+
+  /* Related Naoki reviews */
+  .cs-related { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  .cs .cs-related li { margin: 0; }
+  .cs .cs-related a { display: grid; grid-template-columns: 64px 1fr; gap: 14px; align-items: center; padding: 12px 14px; background: #fff; border: 1.5px solid var(--ink); border-radius: 16px; color: var(--ink); text-decoration: none; }
+  .cs .cs-related a:hover { background: var(--pudding); }
+  .cs .cs-related a:focus-visible { outline: 3px solid var(--denim); outline-offset: 3px; }
+  .cs-rel-date { display: grid; place-items: center; text-align: center; width: 64px; height: 58px; border: 1.5px solid var(--ink); border-radius: 12px; background: var(--banana); line-height: 1; }
+  .cs-rel-date strong { display: block; font-family: var(--display); font-weight: 800; font-size: 20px; }
+  .cs-rel-date span { display: block; font-size: 11px; font-weight: 700; margin-top: 2px; }
+  .cs .cs-related li.cs-rel-new .cs-rel-date { background: #1C2B4F; color: #E5C77A; }
+  .cs .cs-related li.cs-rel-new .cs-rel-date span { color: #fff; }
+  .cs-rel-title { display: block; font-weight: 700; font-size: 16px; line-height: 1.3; }
+  .cs-rel-blurb { display: block; font-size: 14px; color: #5c5640; margin-top: 2px; }
+  .cs-rel-new-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 1px 8px; border-radius: 999px; background: #1C2B4F; color: #E5C77A; margin-left: 6px; vertical-align: 2px; }
+  .cs-crosslink-navy { background: #1C2B4F; color: #fff; border: 2px solid var(--ink); }
+  .cs .cs-crosslink-navy a { color: #E5C77A; }
+  .cs-crosslink-navy strong { color: #E5C77A; }
+  @media (max-width: 520px) { .cs .cs-related a { grid-template-columns: 52px 1fr; gap: 12px; } .cs-rel-date { width: 52px; height: 52px; } .cs-rel-date strong { font-size: 17px; } }
 </style>
 
 <script type="application/ld+json">
@@ -444,6 +463,8 @@ date: 2026-03-25
   <p>When you're hosting a home matcha pop-up for friends and whisking four custom drinks back to back, the wrong matcha powder quickly gives you muted, milky drinks. Enter <strong>Naoki Matcha's Barista Pro Blend</strong>, a first-harvest ceremonial grade blend from <strong>Uji, Kyoto</strong> made to hold its ground in lattes and fruit drinks.</p>
   <p>Here's why Barista Pro Blend is my go-to for multi-drink service and daily iced lattes.</p>
 
+  <p class="cs-crosslink cs-crosslink-navy">✨ <strong>Newest Naoki review:</strong> the one-time <a href="/2026/11/20/naoki-tenth-harvest-matcha-masters-collection-review.html">Tenth Harvest Matcha (Masters Collection)</a>, celebrating 10 years of Naoki. Only 200 tins for Singapore.</p>
+
   <!-- Video -->
   <section class="cs-video">
     <h2>Watch the home pop-up video</h2>
@@ -482,6 +503,8 @@ date: 2026-03-25
       <div class="cs-special-head"><h4>Built for fast, multi-cup workflows</h4><span class="cs-tag">Minimal clumping</span></div>
       <p>When you're whisking four drinks in a row in a spouted chawan, consistency is everything. It wets quickly into a smooth paste and whips up a tight emerald-green microfoam cap in seconds, for clean, café-worthy three-tier layers in custom MXM takeaway cups.</p>
     </div>
+
+    <p class="cs-note">🥛 <strong>Bonsoy fan?</strong> See how Naoki's limited <a href="/2025/11/23/naoki-organic-matcha-blend-l-plus-review.html">Organic Matcha Blend L+</a> pairs with Bonsoy, with zero bitterness.</p>
   </section>
 
   <!-- Pop-up menu -->
@@ -530,6 +553,20 @@ date: 2026-03-25
       <dt>Workflow</dt>
       <dd>Disperses quickly with minimal clumping, for fast back-to-back whisking</dd>
     </dl>
+  </section>
+
+
+  <!-- More Naoki reviews -->
+  <section class="cs-board cs-board-matcha" id="more-naoki">
+    <h2>🍵 More Naoki Matcha reviews</h2>
+    <p class="cs-lede">My other Naoki Matcha reviews, newest first.</p>
+    <ul class="cs-related">
+      <li class="cs-rel-new"><a href="/2026/11/20/naoki-tenth-harvest-matcha-masters-collection-review.html"><span class="cs-rel-date"><span><strong>20</strong><span>Nov 26</span></span></span><span><span class="cs-rel-title">Naoki Tenth Harvest Matcha Review (Masters Collection)<span class="cs-rel-new-tag">Newest</span></span><span class="cs-rel-blurb">A one-time Okumidori × Saemidori release, with only 200 tins for Singapore.</span></span></a></li>
+      <li><a href="/2026/05/11/naoki-limited-edition-yame-single-cultivar-matcha-set-review.html"><span class="cs-rel-date"><span><strong>11</strong><span>May 26</span></span></span><span><span class="cs-rel-title">Naoki Limited Edition Yame Single-Cultivar Matcha Set Review</span><span class="cs-rel-blurb">Kirari 31, Okumidori, Seimei & Yabukita in a 4-cultivar blind latte test.</span></span></a></li>
+      <li><a href="/2026/04/26/naoki-matcha-japan-hatsu-roku-house-roast-hojicha-review.html"><span class="cs-rel-date"><span><strong>26</strong><span>Apr 26</span></span></span><span><span class="cs-rel-title">Naoki Matcha Japan Series: Hatsu, Roku & House Roast Hojicha</span><span class="cs-rel-blurb">Uji vs Yame matcha, plus a smoky, chocolatey hojicha.</span></span></a></li>
+      <li><a href="/2025/12/28/naoki-hojicha-powder-light-vs-dark-roast-comparison.html"><span class="cs-rel-date"><span><strong>28</strong><span>Dec 25</span></span></span><span><span class="cs-rel-title">Naoki Hojicha Powder Review: Light vs Dark Roast</span><span class="cs-rel-blurb">Naoki Classic Roast vs Sundays Kuma in an iced hojicha latte.</span></span></a></li>
+      <li><a href="/2025/11/23/naoki-organic-matcha-blend-l-plus-review.html"><span class="cs-rel-date"><span><strong>23</strong><span>Nov 25</span></span></span><span><span class="cs-rel-title">Naoki Organic Matcha Blend L+ Review</span><span class="cs-rel-blurb">A ~50kg limited-edition Uji micro-lot, tested as an iced Bonsoy latte.</span></span></a></li>
+    </ul>
   </section>
 
 </div>
