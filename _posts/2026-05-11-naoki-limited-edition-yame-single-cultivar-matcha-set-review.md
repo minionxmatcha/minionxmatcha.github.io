@@ -371,6 +371,25 @@ date: 2026-05-11
   .cs-vs .cs-vs-naoki { background: #fff; }
   .cs-vs .cs-vs-naoki strong { color: #6b6550; }
   @media (max-width: 600px) { .cs-glasses { grid-template-columns: repeat(2, 1fr); } }
+
+  /* Related Naoki reviews */
+  .cs-related { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  .cs .cs-related li { margin: 0; }
+  .cs .cs-related a { display: grid; grid-template-columns: 64px 1fr; gap: 14px; align-items: center; padding: 12px 14px; background: #fff; border: 1.5px solid var(--ink); border-radius: 16px; color: var(--ink); text-decoration: none; }
+  .cs .cs-related a:hover { background: var(--pudding); }
+  .cs .cs-related a:focus-visible { outline: 3px solid var(--denim); outline-offset: 3px; }
+  .cs-rel-date { display: grid; place-items: center; text-align: center; width: 64px; height: 58px; border: 1.5px solid var(--ink); border-radius: 12px; background: var(--banana); line-height: 1; }
+  .cs-rel-date strong { display: block; font-family: var(--display); font-weight: 800; font-size: 20px; }
+  .cs-rel-date span { display: block; font-size: 11px; font-weight: 700; margin-top: 2px; }
+  .cs .cs-related li.cs-rel-new .cs-rel-date { background: #1C2B4F; color: #E5C77A; }
+  .cs .cs-related li.cs-rel-new .cs-rel-date span { color: #fff; }
+  .cs-rel-title { display: block; font-weight: 700; font-size: 16px; line-height: 1.3; }
+  .cs-rel-blurb { display: block; font-size: 14px; color: #5c5640; margin-top: 2px; }
+  .cs-rel-new-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 1px 8px; border-radius: 999px; background: #1C2B4F; color: #E5C77A; margin-left: 6px; vertical-align: 2px; }
+  .cs-crosslink-navy { background: #1C2B4F; color: #fff; border: 2px solid var(--ink); }
+  .cs .cs-crosslink-navy a { color: #E5C77A; }
+  .cs-crosslink-navy strong { color: #E5C77A; }
+  @media (max-width: 520px) { .cs .cs-related a { grid-template-columns: 52px 1fr; gap: 12px; } .cs-rel-date { width: 52px; height: 52px; } .cs-rel-date strong { font-size: 17px; } }
 </style>
 
 <script type="application/ld+json">
@@ -450,6 +469,8 @@ date: 2026-05-11
   <p>Can you actually taste the difference between single-cultivar matchas once they're in an iced latte? Using <strong>Naoki Matcha's Limited Edition Yame Single-Cultivar Matcha Gift Set</strong> from <strong>Yame, Fukuoka</strong>, the Minions taped the four cultivar names (<strong>Kirari 31</strong>, <strong>Okumidori</strong>, <strong>Seimei</strong> and <strong>Yabukita</strong>) under four identical glasses and shuffled them for a blind tasting challenge.</p>
   <p>Here's how each cultivar performed in the blind test, and how to tell them apart on the palate.</p>
 
+  <p class="cs-crosslink cs-crosslink-navy">✨ <strong>Newest Naoki review:</strong> the one-time <a href="/2026/11/20/naoki-tenth-harvest-matcha-masters-collection-review.html">Tenth Harvest Matcha (Masters Collection)</a>, celebrating 10 years of Naoki. Only 200 tins for Singapore.</p>
+
   <!-- Video -->
   <section class="cs-video">
     <h2>Watch the 4-cultivar blind test</h2>
@@ -504,7 +525,7 @@ date: 2026-05-11
         <div class="cs-vs-naoki"><strong>Naoki's profile</strong><p>Silky smooth with no bitterness.</p></div>
         <div class="cs-vs-sas"><strong>My blind latte impression</strong><p>Easily the creamiest and most balanced cup.</p></div>
       </div>
-      <div class="cs-round-body"><p>True to its name, Okumidori had the creamiest mouthfeel of the four glasses. With zero bitterness and a rounded body, it stood out as the most harmonious, well-balanced everyday latte cultivar.</p></div>
+      <div class="cs-round-body"><p>True to its name, Okumidori had the creamiest mouthfeel of the four glasses. With zero bitterness and a rounded body, it stood out as the most harmonious, well-balanced everyday latte cultivar.</p><p style="margin-top:8px;font-size:14px;color:#5c5640;">🌟 Okumidori also stars in Naoki's one-time <a href="/2026/11/20/naoki-tenth-harvest-matcha-masters-collection-review.html">Tenth Harvest Matcha</a>, blended with Saemidori from Uji.</p></div>
     </div>
     <div class="cs-round" id="seimei">
       <div class="cs-round-head"><span><span class="cs-label-pill l-mellow">MELLOW</span>Yame Mellow · 30g pouch</span><h3>Seimei<small>せいめい</small></h3></div>
@@ -527,7 +548,7 @@ date: 2026-05-11
   <!-- Verdict -->
   <section class="cs-info">
     <h2>Verdict: who is this set for?</h2>
-    <p>If you usually drink multi-cultivar blends and want to train your palate to recognise individual cultivars, or you want to explore why <strong>Yame, Fukuoka</strong> is celebrated for its rich, shaded teas, this set is one of the most educational and enjoyable ways to taste them side by side.</p>
+    <p>If you usually drink multi-cultivar blends and want to train your palate to recognise individual cultivars, or you want to explore why <strong>Yame, Fukuoka</strong> is celebrated for its rich, shaded teas, this set is one of the most educational and enjoyable ways to taste them side by side. For an everyday Yame blend, try <a href="/2026/04/26/naoki-matcha-japan-hatsu-roku-house-roast-hojicha-review.html">Naoki's Roku from the Japan Series</a>, which earned a Minion Approved stamp.</p>
     <dl>
       <dt>Set</dt>
       <dd>Naoki Matcha Limited Edition Yame Single-Cultivar Matcha Gift Set</dd>
@@ -536,6 +557,20 @@ date: 2026-05-11
       <dt>Contents</dt>
       <dd>4 × 30g resealable pouches: Bold, Smooth, Mellow and Deep Roast</dd>
     </dl>
+  </section>
+
+
+  <!-- More Naoki reviews -->
+  <section class="cs-board cs-board-matcha" id="more-naoki">
+    <h2>🍵 More Naoki Matcha reviews</h2>
+    <p class="cs-lede">My other Naoki Matcha reviews, newest first.</p>
+    <ul class="cs-related">
+      <li class="cs-rel-new"><a href="/2026/11/20/naoki-tenth-harvest-matcha-masters-collection-review.html"><span class="cs-rel-date"><span><strong>20</strong><span>Nov 26</span></span></span><span><span class="cs-rel-title">Naoki Tenth Harvest Matcha Review (Masters Collection)<span class="cs-rel-new-tag">Newest</span></span><span class="cs-rel-blurb">A one-time Okumidori × Saemidori release, with only 200 tins for Singapore.</span></span></a></li>
+      <li><a href="/2026/04/26/naoki-matcha-japan-hatsu-roku-house-roast-hojicha-review.html"><span class="cs-rel-date"><span><strong>26</strong><span>Apr 26</span></span></span><span><span class="cs-rel-title">Naoki Matcha Japan Series: Hatsu, Roku & House Roast Hojicha</span><span class="cs-rel-blurb">Uji vs Yame matcha, plus a smoky, chocolatey hojicha.</span></span></a></li>
+      <li><a href="/2026/03/25/naoki-matcha-barista-pro-blend-home-pop-up-review.html"><span class="cs-rel-date"><span><strong>25</strong><span>Mar 26</span></span></span><span><span class="cs-rel-title">Naoki Matcha Barista Pro Blend Review</span><span class="cs-rel-blurb">The first-harvest Uji blend that holds up in milk and fruit purees at a home pop-up.</span></span></a></li>
+      <li><a href="/2025/12/28/naoki-hojicha-powder-light-vs-dark-roast-comparison.html"><span class="cs-rel-date"><span><strong>28</strong><span>Dec 25</span></span></span><span><span class="cs-rel-title">Naoki Hojicha Powder Review: Light vs Dark Roast</span><span class="cs-rel-blurb">Naoki Classic Roast vs Sundays Kuma in an iced hojicha latte.</span></span></a></li>
+      <li><a href="/2025/11/23/naoki-organic-matcha-blend-l-plus-review.html"><span class="cs-rel-date"><span><strong>23</strong><span>Nov 25</span></span></span><span><span class="cs-rel-title">Naoki Organic Matcha Blend L+ Review</span><span class="cs-rel-blurb">A ~50kg limited-edition Uji micro-lot, tested as an iced Bonsoy latte.</span></span></a></li>
+    </ul>
   </section>
 
 </div>
