@@ -368,6 +368,17 @@ date: 2026-11-20
   .cs-jade { display: inline-block; width: 16px; height: 16px; border-radius: 50%; border: 1.5px solid var(--ink); background: #2E7D4F; vertical-align: -3px; margin-right: 6px; }
   .cs-check { display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 9px; border-radius: 999px; border: 1.5px solid var(--ink); background: var(--foam); color: var(--matcha-deep); white-space: nowrap; }
   [hidden] { display: none !important; }
+  .cs-related { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  .cs .cs-related li { margin: 0; }
+  .cs .cs-related a { display: grid; grid-template-columns: 64px 1fr; gap: 14px; align-items: center; padding: 12px 14px; background: #fff; border: 1.5px solid var(--ink); border-radius: 16px; color: var(--ink); text-decoration: none; }
+  .cs .cs-related a:hover { background: var(--pudding); }
+  .cs .cs-related a:focus-visible { outline: 3px solid var(--denim); outline-offset: 3px; }
+  .cs-rel-date { display: grid; place-items: center; text-align: center; width: 64px; height: 58px; border: 1.5px solid var(--ink); border-radius: 12px; background: #1C2B4F; color: #E5C77A; line-height: 1; }
+  .cs-rel-date strong { display: block; font-family: var(--display); font-weight: 800; font-size: 20px; }
+  .cs-rel-date span { display: block; font-size: 11px; font-weight: 700; margin-top: 2px; color: #fff; }
+  .cs-rel-title { display: block; font-weight: 700; font-size: 16px; line-height: 1.3; }
+  .cs-rel-blurb { display: block; font-size: 14px; color: #5c5640; margin-top: 2px; }
+  @media (max-width: 520px) { .cs .cs-related a { grid-template-columns: 52px 1fr; gap: 12px; } .cs-rel-date { width: 52px; height: 52px; } .cs-rel-date strong { font-size: 17px; } }
   .cs-timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
   .cs .cs-timeline li { margin: 0; display: grid; grid-template-columns: 92px 1fr; gap: 14px; align-items: start; padding: 12px 14px; background: #fff; border: 1.5px solid var(--ink); border-radius: 16px; }
   .cs-tl-date { display: block; text-align: center; padding: 6px 4px; border-radius: 12px; border: 1.5px solid var(--ink); background: #1C2B4F; color: #E5C77A; font-family: var(--display); font-weight: 800; font-size: 17px; line-height: 1.1; }
@@ -474,7 +485,7 @@ date: 2026-11-20
   <p class="cs-alert" data-show-from="2026-11-26T22:00:00+08:00" data-show-until="2026-11-30T00:00:00+08:00" hidden>📅 <strong>Available to everyone from 30 Nov</strong> on Naoki's website. <a href="#get-it">Details</a>.</p>
   <p class="cs-alert" data-show-from="2026-11-30T00:00:00+08:00" hidden>🛒 <strong>Now available</strong> on Naoki's website, while the 200 tins last. <a href="#get-it">Details</a>.</p>
 
-  <p>I started out as a Naoki customer with a single spouted chawan in August 2024, and have since worked with them on collaborations across their lineup. Here's how this one-time celebratory release performs as both <strong>usucha</strong> and a <strong>full-cream iced latte</strong>.</p>
+  <p>I started out as a Naoki customer with a single spouted chawan in August 2024, and have since worked with them on collaborations across their lineup (you'll find <a href="#more-naoki">all my Naoki reviews</a> at the end of this post). Here's how this one-time celebratory release performs as both <strong>usucha</strong> and a <strong>full-cream iced latte</strong>.</p>
 
   <!-- Video -->
   <section class="cs-video">
@@ -548,7 +559,7 @@ date: 2026-11-20
       <p>Many delicate ceremonial blends lose their voice in full-cream milk, but Tenth Harvest does the exact opposite. Full-cream dairy turns up the nuttiness and unlocks a creamy, rich, brothy umami depth.</p>
     </div>
 
-    <p class="cs-note">💚 <strong>Verdict:</strong> enjoyable as a straight usucha, but this Okumidori–Saemidori blend truly comes alive in milk. If you're a latte lover looking for a commemorative tin that won't get muted by dairy, this one-time release is for you.</p>
+    <p class="cs-note">💚 <strong>Verdict:</strong> enjoyable as a straight usucha, but this Okumidori–Saemidori blend truly comes alive in milk. If you're a latte lover looking for a commemorative tin that won't get muted by dairy, this one-time release is for you. For an everyday latte workhorse, see my <a href="/2026/03/25/naoki-matcha-barista-pro-blend-home-pop-up-review.html">Naoki Barista Pro Blend review</a>.</p>
   </section>
 
   <!-- How to get it -->
@@ -596,6 +607,19 @@ date: 2026-11-20
       <dt>Official notes</dt>
       <dd>Buttered greens & sweet chestnuts</dd>
     </dl>
+  </section>
+
+  <!-- More Naoki reviews -->
+  <section class="cs-board cs-board-matcha" id="more-naoki">
+    <h2>🍵 More Naoki Matcha reviews</h2>
+    <p class="cs-lede">My other Naoki Matcha reviews, newest first.</p>
+    <ul class="cs-related">
+      <li><a href="/2026/05/11/naoki-limited-edition-yame-single-cultivar-matcha-set-review.html"><span class="cs-rel-date"><span><strong>11</strong><span>May 26</span></span></span><span><span class="cs-rel-title">Naoki Limited Edition Yame Single-Cultivar Matcha Set Review</span><span class="cs-rel-blurb">Kirari 31, Okumidori, Seimei & Yabukita in a 4-cultivar blind latte test. Taste Okumidori on its own.</span></span></a></li>
+      <li><a href="/2026/04/26/naoki-matcha-japan-hatsu-roku-house-roast-hojicha-review.html"><span class="cs-rel-date"><span><strong>26</strong><span>Apr 26</span></span></span><span><span class="cs-rel-title">Naoki Matcha Japan Series: Hatsu, Roku & House Roast Hojicha</span><span class="cs-rel-blurb">Uji vs Yame matcha, plus a smoky, chocolatey hojicha.</span></span></a></li>
+      <li><a href="/2026/03/25/naoki-matcha-barista-pro-blend-home-pop-up-review.html"><span class="cs-rel-date"><span><strong>25</strong><span>Mar 26</span></span></span><span><span class="cs-rel-title">Naoki Matcha Barista Pro Blend Review</span><span class="cs-rel-blurb">The first-harvest Uji blend that holds up in milk and fruit purees at a home pop-up.</span></span></a></li>
+      <li><a href="/2025/12/28/naoki-hojicha-powder-light-vs-dark-roast-comparison.html"><span class="cs-rel-date"><span><strong>28</strong><span>Dec 25</span></span></span><span><span class="cs-rel-title">Naoki Hojicha Powder Review: Light vs Dark Roast</span><span class="cs-rel-blurb">Naoki Classic Roast vs Sundays Kuma in an iced hojicha latte.</span></span></a></li>
+      <li><a href="/2025/11/23/naoki-organic-matcha-blend-l-plus-review.html"><span class="cs-rel-date"><span><strong>23</strong><span>Nov 25</span></span></span><span><span class="cs-rel-title">Naoki Organic Matcha Blend L+ Review</span><span class="cs-rel-blurb">A ~50kg limited-edition Uji micro-lot, tested as an iced Bonsoy latte.</span></span></a></li>
+    </ul>
   </section>
 
 </div>
