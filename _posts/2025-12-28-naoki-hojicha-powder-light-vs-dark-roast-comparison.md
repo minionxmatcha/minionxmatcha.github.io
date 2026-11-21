@@ -369,6 +369,25 @@ date: 2025-12-28
   .cs-foam-body p { margin: 0; font-size: 14px; }
   .cs-foam-level { display: inline-block; font-size: 12px; font-weight: 700; padding: 2px 9px; border-radius: 999px; border: 1.5px solid var(--ink); background: var(--foam); margin-bottom: 6px; }
   @media (max-width: 600px) { .cs-foam { grid-template-columns: 1fr; } .cs-cup { height: 70px; } .cs-cup-tea { height: 30px; } }
+
+  /* Related Naoki reviews */
+  .cs-related { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  .cs .cs-related li { margin: 0; }
+  .cs .cs-related a { display: grid; grid-template-columns: 64px 1fr; gap: 14px; align-items: center; padding: 12px 14px; background: #fff; border: 1.5px solid var(--ink); border-radius: 16px; color: var(--ink); text-decoration: none; }
+  .cs .cs-related a:hover { background: var(--pudding); }
+  .cs .cs-related a:focus-visible { outline: 3px solid var(--denim); outline-offset: 3px; }
+  .cs-rel-date { display: grid; place-items: center; text-align: center; width: 64px; height: 58px; border: 1.5px solid var(--ink); border-radius: 12px; background: var(--banana); line-height: 1; }
+  .cs-rel-date strong { display: block; font-family: var(--display); font-weight: 800; font-size: 20px; }
+  .cs-rel-date span { display: block; font-size: 11px; font-weight: 700; margin-top: 2px; }
+  .cs .cs-related li.cs-rel-new .cs-rel-date { background: #1C2B4F; color: #E5C77A; }
+  .cs .cs-related li.cs-rel-new .cs-rel-date span { color: #fff; }
+  .cs-rel-title { display: block; font-weight: 700; font-size: 16px; line-height: 1.3; }
+  .cs-rel-blurb { display: block; font-size: 14px; color: #5c5640; margin-top: 2px; }
+  .cs-rel-new-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 1px 8px; border-radius: 999px; background: #1C2B4F; color: #E5C77A; margin-left: 6px; vertical-align: 2px; }
+  .cs-crosslink-navy { background: #1C2B4F; color: #fff; border: 2px solid var(--ink); }
+  .cs .cs-crosslink-navy a { color: #E5C77A; }
+  .cs-crosslink-navy strong { color: #E5C77A; }
+  @media (max-width: 520px) { .cs .cs-related a { grid-template-columns: 52px 1fr; gap: 12px; } .cs-rel-date { width: 52px; height: 52px; } .cs-rel-date strong { font-size: 17px; } }
 </style>
 
 <script type="application/ld+json">
@@ -446,6 +465,8 @@ date: 2025-12-28
   </header>
 
   <p>Are you <strong>Team Light Roast</strong> or <strong>Team Dark Roast</strong> when it comes to hojicha lattes? I put <strong>Naoki Matcha's Classic Roast Hojicha Powder</strong> head to head against <strong>Sundays Kuma Deep Roast Hojicha</strong>, comparing dry powder colour, microfoam and iced latte flavour using exactly the same tea-to-milk ratio.</p>
+
+  <p class="cs-crosslink cs-crosslink-navy">✨ <strong>Newest Naoki review:</strong> the one-time <a href="/2026/11/20/naoki-tenth-harvest-matcha-masters-collection-review.html">Tenth Harvest Matcha (Masters Collection)</a>, celebrating 10 years of Naoki. Only 200 tins for Singapore.</p>
 
   <!-- Video -->
   <section class="cs-video">
@@ -528,6 +549,8 @@ date: 2025-12-28
       <p style="margin-top:8px;"><strong>Taste:</strong> with the exact same milk and tea ratio, the dark roast gives a bold, intense cup. Ideal for roasted oolong fans and espresso drinkers looking for a low-caffeine kick.</p>
       <ul class="cs-chips" aria-label="Tasting notes"><li>Bold</li><li>Dark chocolate</li><li>Coffee-like body</li></ul>
     </div>
+
+    <p class="cs-note">🍫 <strong>Team Dark Roast but loyal to Naoki?</strong> Their smoky, chocolatey <a href="/2026/04/26/naoki-matcha-japan-hatsu-roku-house-roast-hojicha-review.html">House Roast Hojicha from the Japan Series</a> is the darker option.</p>
   </section>
 
   <!-- Tea science -->
@@ -548,6 +571,20 @@ date: 2025-12-28
         <div class="cs-foam-body"><span class="cs-foam-level">Minimal foam</span><strong>Dark roast hojicha</strong><p>Sundays Kuma. Extended deep roasting breaks down most saponins, so even vigorous whisking makes little foam.</p></div>
       </li>
     </ol>
+  </section>
+
+
+  <!-- More Naoki reviews -->
+  <section class="cs-board cs-board-matcha" id="more-naoki">
+    <h2>🍵 More Naoki Matcha reviews</h2>
+    <p class="cs-lede">My other Naoki Matcha reviews, newest first.</p>
+    <ul class="cs-related">
+      <li class="cs-rel-new"><a href="/2026/11/20/naoki-tenth-harvest-matcha-masters-collection-review.html"><span class="cs-rel-date"><span><strong>20</strong><span>Nov 26</span></span></span><span><span class="cs-rel-title">Naoki Tenth Harvest Matcha Review (Masters Collection)<span class="cs-rel-new-tag">Newest</span></span><span class="cs-rel-blurb">A one-time Okumidori × Saemidori release, with only 200 tins for Singapore.</span></span></a></li>
+      <li><a href="/2026/05/11/naoki-limited-edition-yame-single-cultivar-matcha-set-review.html"><span class="cs-rel-date"><span><strong>11</strong><span>May 26</span></span></span><span><span class="cs-rel-title">Naoki Limited Edition Yame Single-Cultivar Matcha Set Review</span><span class="cs-rel-blurb">Kirari 31, Okumidori, Seimei & Yabukita in a 4-cultivar blind latte test.</span></span></a></li>
+      <li><a href="/2026/04/26/naoki-matcha-japan-hatsu-roku-house-roast-hojicha-review.html"><span class="cs-rel-date"><span><strong>26</strong><span>Apr 26</span></span></span><span><span class="cs-rel-title">Naoki Matcha Japan Series: Hatsu, Roku & House Roast Hojicha</span><span class="cs-rel-blurb">Uji vs Yame matcha, plus a smoky, chocolatey hojicha.</span></span></a></li>
+      <li><a href="/2026/03/25/naoki-matcha-barista-pro-blend-home-pop-up-review.html"><span class="cs-rel-date"><span><strong>25</strong><span>Mar 26</span></span></span><span><span class="cs-rel-title">Naoki Matcha Barista Pro Blend Review</span><span class="cs-rel-blurb">The first-harvest Uji blend that holds up in milk and fruit purees at a home pop-up.</span></span></a></li>
+      <li><a href="/2025/11/23/naoki-organic-matcha-blend-l-plus-review.html"><span class="cs-rel-date"><span><strong>23</strong><span>Nov 25</span></span></span><span><span class="cs-rel-title">Naoki Organic Matcha Blend L+ Review</span><span class="cs-rel-blurb">A ~50kg limited-edition Uji micro-lot, tested as an iced Bonsoy latte.</span></span></a></li>
+    </ul>
   </section>
 
 </div>
