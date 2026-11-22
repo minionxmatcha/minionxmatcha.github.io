@@ -559,7 +559,7 @@ date: 2026-11-20
       <p>Many delicate ceremonial blends lose their voice in full-cream milk, but Tenth Harvest does the exact opposite. Full-cream dairy turns up the nuttiness and unlocks a creamy, rich, brothy umami depth.</p>
     </div>
 
-    <p class="cs-note">💚 <strong>Verdict:</strong> enjoyable as a straight usucha, but this Okumidori–Saemidori blend truly comes alive in milk. If you're a latte lover looking for a commemorative tin that won't get muted by dairy, this one-time release is for you. For an everyday latte workhorse, see my <a href="/2026/03/25/naoki-matcha-barista-pro-blend-home-pop-up-review.html">Naoki Barista Pro Blend review</a>.</p>
+    <p class="cs-note">💚 <strong>Verdict:</strong> enjoyable as a straight usucha, but this Okumidori–Saemidori blend truly comes alive in milk. If you're a latte lover looking for a commemorative tin that won't get muted by dairy, this one-time release is for you. For an everyday latte workhorse, see my <a href="/2026/03/25/naoki-matcha-barista-pro-blend-home-pop-up-review.html">Naoki Barista Pro Blend review</a>. Prefer a bolder Uji blend in dairy? <a href="/2026/08/31/naoki-uji-harmony-2-0-matcha-review.html">Uji Harmony 2.0</a> finishes like bitter dark chocolate.</p>
   </section>
 
   <!-- How to get it -->
@@ -614,6 +614,7 @@ date: 2026-11-20
     <h2>🍵 More Naoki Matcha reviews</h2>
     <p class="cs-lede">My other Naoki Matcha reviews, newest first.</p>
     <ul class="cs-related">
+      <li><a href="/2026/08/31/naoki-uji-harmony-2-0-matcha-review.html"><span class="cs-rel-date"><span><strong>31</strong><span>Aug 26</span></span></span><span><span class="cs-rel-title">Naoki Uji Harmony 2.0 Review: 5-Cultivar Uji Matcha</span><span class="cs-rel-blurb">Five Uji cultivars in an iced dairy latte, with a bitter dark-chocolate finish.</span></span></a></li>
       <li><a href="/2026/05/11/naoki-limited-edition-yame-single-cultivar-matcha-set-review.html"><span class="cs-rel-date"><span><strong>11</strong><span>May 26</span></span></span><span><span class="cs-rel-title">Naoki Limited Edition Yame Single-Cultivar Matcha Set Review</span><span class="cs-rel-blurb">Kirari 31, Okumidori, Seimei & Yabukita in a 4-cultivar blind latte test. Taste Okumidori on its own.</span></span></a></li>
       <li><a href="/2026/04/26/naoki-matcha-japan-hatsu-roku-house-roast-hojicha-review.html"><span class="cs-rel-date"><span><strong>26</strong><span>Apr 26</span></span></span><span><span class="cs-rel-title">Naoki Matcha Japan Series: Hatsu, Roku & House Roast Hojicha</span><span class="cs-rel-blurb">Uji vs Yame matcha, plus a smoky, chocolatey hojicha.</span></span></a></li>
       <li><a href="/2026/03/25/naoki-matcha-barista-pro-blend-home-pop-up-review.html"><span class="cs-rel-date"><span><strong>25</strong><span>Mar 26</span></span></span><span><span class="cs-rel-title">Naoki Matcha Barista Pro Blend Review</span><span class="cs-rel-blurb">The first-harvest Uji blend that holds up in milk and fruit purees at a home pop-up.</span></span></a></li>
