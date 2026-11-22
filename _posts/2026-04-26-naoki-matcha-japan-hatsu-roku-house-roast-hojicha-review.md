@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Naoki Matcha Japan Series Review: Hatsu (Uji), Roku (Yame) & House Roast Hojicha"
-date: 2026-04-26
+title: "Naoki Hojicha Powder Review: Light Roast vs. Dark Roast Hojicha Latte Comparison"
+date: 2025-12-28
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -349,40 +349,26 @@ date: 2026-04-26
   .cs-special .cs-special-head .cs-nick { font-family: var(--body); font-weight: 400; font-style: italic; font-size: 14px; color: #6b6550; }
   @media (max-width: 600px) { .cs-ware, .cs-jars { grid-template-columns: 1fr; } }
 
-  /* Naoki JP series additions */
-  .cs-counters-3 { grid-template-columns: repeat(3, 1fr); }
-  .cs-counters-3 .cs-counter + .cs-counter { border-left: 2px solid var(--ink); }
-  .cs-kanji { display: block; font-family: 'Noto Serif JP', 'Hiragino Mincho ProN', 'Yu Mincho', serif; font-weight: 700; font-size: 40px; line-height: 1; margin-bottom: 8px; }
-  .cs-p-hatsu { background: #F7F3EE; color: var(--ink); box-shadow: inset 0 -8px 0 #7B2D4A; }
-  .cs-p-roku { background: #1F2F55; color: #fff; box-shadow: inset 0 -8px 0 #2FA3A0; }
-  .cs-p-hoji { background: #4A2E1F; color: #fff; box-shadow: inset 0 -8px 0 #B5532E; }
-  .cs-pouch { border: 1.5px solid var(--ink); border-radius: 18px; overflow: hidden; background: #fff; }
-  .cs-pouch + .cs-pouch { margin-top: 14px; }
-  .cs-pouch-head { display: grid; grid-template-columns: 56px 1fr auto; gap: 14px; align-items: center; padding: 16px 18px 22px; }
-  .cs-pouch-head .cs-kanji { margin: 0; font-size: 44px; text-align: center; }
-  .cs-pouch-head h3 { font-family: var(--display); font-weight: 800; font-size: 21px; line-height: 1.15; margin: 0; color: inherit; }
-  .cs-pouch-head small { display: block; font-family: var(--body); font-weight: 400; font-size: 13px; opacity: .85; margin-top: 2px; }
-  .cs-pouch-body { padding: 16px 18px 18px; }
-  .cs-pouch-body p { margin: 0 0 10px; font-size: 15px; }
-  .cs-pouch-body dl { margin: 12px 0 0; display: grid; grid-template-columns: 90px 1fr; gap: 6px 12px; font-size: 14px; }
-  .cs-pouch-body dt { font-weight: 700; color: #6b6550; }
-  .cs-pouch-body dd { margin: 0; }
-  .cs-pouch-body p.cs-pouch-link { margin: 12px 0 0; font-size: 14px; color: #5c5640; }
-  .cs-approved { display: inline-block; font-size: 12px; font-weight: 800; padding: 5px 11px; border-radius: 999px; background: var(--banana); color: var(--ink); border: 2px solid var(--ink); white-space: nowrap; transform: rotate(-4deg); }
-  .cs-table-jp thead th:nth-child(2) { background: #F7F3EE; color: var(--ink); box-shadow: inset 0 -4px 0 #7B2D4A; }
-  .cs-table-jp thead th:nth-child(3) { background: #1F2F55; color: #fff; box-shadow: inset 0 -4px 0 #2FA3A0; }
-  .cs-table-jp thead th:nth-child(4) { background: #4A2E1F; color: #fff; box-shadow: inset 0 -4px 0 #B5532E; }
-  .cs-table-jp td { background: #fff !important; font-size: 14px; }
-  .cs-table-jp tbody th { width: 22%; color: var(--ink); }
-  @media (max-width: 600px) {
-    .cs-counters-3 { grid-template-columns: 1fr; }
-    .cs-counters-3 .cs-counter + .cs-counter { border-left: 0; border-top: 2px solid var(--ink); }
-    .cs-pouch-head { grid-template-columns: 44px 1fr; }
-    .cs-pouch-head .cs-kanji { font-size: 36px; }
-    .cs-pouch-head .cs-approved { grid-column: 1 / -1; justify-self: start; }
-    .cs-table-jp th, .cs-table-jp td { padding: 8px 6px; font-size: 12px !important; overflow-wrap: anywhere; }
-    .cs-table-jp tbody th { width: 70px; overflow-wrap: normal; font-size: 11px !important; }
-  }
+  /* Hojicha roast additions */
+  .cs-counter-light { background: #E2B46A; color: var(--ink); }
+  .cs-counter-dark { background: #4A2E1F; color: #fff; }
+  .cs-vs .cs-vs-light { background: #F7EAD2; }
+  .cs-vs .cs-vs-dark { background: #4A2E1F; color: #fff; }
+  .cs-vs .cs-vs-dark strong { color: #F2C98A; }
+  .cs-vs .cs-vs-light strong { color: #7A4B16; }
+  .cs-swatch-dot { display: inline-block; width: 14px; height: 14px; border-radius: 50%; border: 1.5px solid currentColor; vertical-align: -2px; margin-right: 6px; }
+  .cs-special-light { border-left: 8px solid #E2B46A; }
+  .cs-special-dark { border-left: 8px solid #4A2E1F; }
+  .cs-foam { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .cs .cs-foam li { margin: 0; background: #fff; border: 1.5px solid var(--ink); border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; }
+  .cs-cup { height: 96px; display: flex; flex-direction: column; justify-content: flex-end; border-bottom: 1.5px solid var(--ink); }
+  .cs-cup-foam { background: repeating-radial-gradient(circle at 30% 40%, #FFFDF4 0 3px, #F3EBD3 3px 6px); border-top: 1.5px dashed rgba(42,38,22,.35); }
+  .cs-cup-tea { height: 44px; }
+  .cs-foam-body { padding: 12px 14px 14px; }
+  .cs-foam-body strong { display: block; font-family: var(--display); font-weight: 800; font-size: 17px; line-height: 1.2; margin-bottom: 4px; }
+  .cs-foam-body p { margin: 0; font-size: 14px; }
+  .cs-foam-level { display: inline-block; font-size: 12px; font-weight: 700; padding: 2px 9px; border-radius: 999px; border: 1.5px solid var(--ink); background: var(--foam); margin-bottom: 6px; }
+  @media (max-width: 600px) { .cs-foam { grid-template-columns: 1fr; } .cs-cup { height: 70px; } .cs-cup-tea { height: 30px; } }
 
   /* Related Naoki reviews */
   .cs-related { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
@@ -410,9 +396,9 @@ date: 2026-04-26
   "@graph": [
     {
       "@type": "Product",
-      "name": "Naoki Matcha Japan Series (Hatsu Uji Matcha, Roku Yame Matcha & House Roast Hojicha)",
-      "description": "40g Japanese tea pouches from Naoki Matcha's Japan (JP) series: Hatsu (Uji, Kyoto), Roku (Yame, Fukuoka), and House Roast Hojicha.",
-      "image": "https://img.youtube.com/vi/vABgEbRHTng/hqdefault.jpg",
+      "name": "Naoki Matcha Classic Roast Hojicha Powder (50g)",
+      "description": "Light-to-classic roast Japanese Hojicha powder by Naoki Matcha (50g resealable pouch), delivering a gentle, nutty, and kinako-like flavour profile ideal for iced hojicha lattes.",
+      "image": "https://img.youtube.com/vi/AwaXwGQw2t8/hqdefault.jpg",
       "brand": {
         "@type": "Brand",
         "name": "Naoki Matcha"
@@ -423,19 +409,19 @@ date: 2026-04-26
           "@type": "Person",
           "name": "minionxmatcha"
         },
-        "reviewBody": "Hatsu from Uji surprises with an unexpectedly roasty yet smooth, balanced profile suited for everyday lattes. Roku from Yame delivers signature nutty, creamy depth that earns a Minion-approved stamp. House Roast Hojicha brings a rich, smoky, and chocolatey body ideal for curing hojicha latte cravings."
+        "reviewBody": "Naoki's Classic Roast Hojicha Powder presents a warm golden-brown hue and retains more natural tea saponins than dark-roast alternatives, creating noticeably better microfoam when whisked. In an iced latte, it tastes gentle, nutty, and almost kinako-like—making it a top pick for milk tea lovers."
       }
     },
     {
       "@type": "VideoObject",
-      "name": "Naoki Matcha Japan: Hatsu, Roku & House Roast Hojicha Review",
-      "description": "Unboxing and tasting Naoki Matcha Japan's three 40g blends: Hatsu (Uji), Roku (Yame), and House Roast Hojicha.",
+      "name": "Light Roast vs Dark Roast Hojicha: Naoki Hojicha Powder vs Sundays Kuma Hojicha",
+      "description": "Side-by-side comparison of Naoki Matcha's Classic Roast Hojicha Powder (Light Roast) and Sundays Kuma Deep Roast Hojicha Powder (Dark Roast), testing powder colour, saponin microfoam retention, and iced latte flavour profiles.",
       "thumbnailUrl": [
-        "https://img.youtube.com/vi/vABgEbRHTng/hqdefault.jpg"
+        "https://img.youtube.com/vi/AwaXwGQw2t8/hqdefault.jpg"
       ],
-      "uploadDate": "2026-04-26",
-      "contentUrl": "https://www.youtube.com/shorts/vABgEbRHTng",
-      "embedUrl": "https://www.youtube.com/embed/vABgEbRHTng"
+      "uploadDate": "2025-12-28",
+      "contentUrl": "https://www.youtube.com/shorts/AwaXwGQw2t8",
+      "embedUrl": "https://www.youtube.com/embed/AwaXwGQw2t8"
     }
   ]
 }
@@ -458,131 +444,133 @@ date: 2026-04-26
     </div>
   </div>
 
-  <!-- Hero: the three pouches -->
+  <!-- Hero: light vs dark -->
   <header class="cs-hero">
     <div class="cs-hero-top">
-      <h1 class="cs-title">Naoki Matcha Japan Series Review: Hatsu, Roku & House Roast Hojicha</h1>
-      <p class="cs-where">JP Series · Three 40g pouches · Whisked & poured over Minion ice</p>
+      <h1 class="cs-title">Naoki Hojicha Powder Review: Light Roast vs Dark Roast</h1>
+      <p class="cs-where">Same tea-to-milk ratio · Powder colour, microfoam & iced latte taste</p>
     </div>
-    <div class="cs-counters cs-counters-3">
-      <a class="cs-counter cs-p-hatsu" href="#hatsu" style="text-decoration:none;color:var(--ink);">
-        <span class="cs-kanji" aria-hidden="true">初</span>
-        <strong>Hatsu</strong>
-        <span class="cs-from">Uji, Kyoto</span>
+    <div class="cs-counters">
+      <a class="cs-counter cs-counter-light" href="#team-light" style="text-decoration:none;color:var(--ink);">
+        <span class="cs-counter-emoji" aria-hidden="true">🌾</span>
+        <strong>Team Light Roast</strong>
+        <span class="cs-from">Naoki Classic Roast · 50g pouch</span>
       </a>
-      <a class="cs-counter cs-p-roku" href="#roku" style="text-decoration:none;color:#fff;">
-        <span class="cs-kanji" aria-hidden="true">六</span>
-        <strong>Roku</strong>
-        <span class="cs-from">Yame, Fukuoka</span>
-      </a>
-      <a class="cs-counter cs-p-hoji" href="#house-roast" style="text-decoration:none;color:#fff;">
-        <span class="cs-kanji" aria-hidden="true">焙</span>
-        <strong>House Roast</strong>
-        <span class="cs-from">Hojicha</span>
+      <a class="cs-counter cs-counter-dark" href="#team-dark" style="text-decoration:none;color:#fff;">
+        <span class="cs-counter-emoji" aria-hidden="true">🍫</span>
+        <strong>Team Dark Roast</strong>
+        <span class="cs-from">Sundays Kuma · 30g jar</span>
       </a>
     </div>
   </header>
 
-  <p><strong>Naoki Matcha Japan</strong> sent over three 40g blends from their <strong>JP Series</strong>: <strong>Hatsu (初)</strong> from Uji, <strong>Roku (六)</strong> from Yame, and <strong>House Roast Hojicha (焙)</strong>.</p>
-  <p>Whisked with my Minion-charmed bamboo chasen and poured over a 3D Minion ice cube, here's how all three pouches compare.</p>
+  <p>Are you <strong>Team Light Roast</strong> or <strong>Team Dark Roast</strong> when it comes to hojicha lattes? I put <strong>Naoki Matcha's Classic Roast Hojicha Powder</strong> head to head against <strong>Sundays Kuma Deep Roast Hojicha</strong>, comparing dry powder colour, microfoam and iced latte flavour using exactly the same tea-to-milk ratio.</p>
 
   <p class="cs-crosslink cs-crosslink-navy">✨ <strong>Newest Naoki review:</strong> the one-time <a href="/2026/11/20/naoki-tenth-harvest-matcha-masters-collection-review.html">Tenth Harvest Matcha (Masters Collection)</a>, celebrating 10 years of Naoki. Only 200 tins for Singapore.</p>
 
   <!-- Video -->
   <section class="cs-video">
-    <h2>Watch the video review</h2>
+    <h2>Watch the video comparison</h2>
 
-    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DXl6roME9de/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:20px; box-shadow:0 0 0 2px #2A2616; margin: 0 auto; max-width: 360px; min-width: 280px; padding: 0; width: 100%;"></blockquote>
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DSzhM70kylK/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:20px; box-shadow:0 0 0 2px #2A2616; margin: 0 auto; max-width: 360px; min-width: 280px; padding: 0; width: 100%;"></blockquote>
     <script async src="//www.instagram.com/embed.js"></script>
 
-    <a class="cs-btn" href="https://www.instagram.com/reel/DXl6roME9de/" target="_blank" rel="noopener">Follow & watch on Instagram</a>
+    <a class="cs-btn" href="https://www.instagram.com/reel/DSzhM70kylK/" target="_blank" rel="noopener">Follow & watch on Instagram</a>
 
     <!-- YouTube Shorts embed (preserves the Google video search badge) -->
     <p class="cs-alt">Prefer YouTube? Watch the Short here:</p>
     <div class="cs-yt-frame">
       <iframe
-        src="https://www.youtube.com/embed/vABgEbRHTng"
-        title="Naoki Matcha Japan: Hatsu, Roku & House Roast Hojicha"
+        src="https://www.youtube.com/embed/AwaXwGQw2t8"
+        title="Light Roast vs Dark Roast Hojicha: Naoki Hojicha Powder Review"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
       </iframe>
     </div>
 
     <p class="cs-more">
-      <a href="https://vt.tiktok.com/ZSp7cnRHA/" target="_blank" rel="noopener">Watch on TikTok</a>
+      <a href="https://vt.tiktok.com/ZSp77FX2j/" target="_blank" rel="noopener">Watch on TikTok</a>
     </p>
   </section>
 
-  <!-- Tasting notes -->
+  <!-- Side by side -->
   <section class="cs-board cs-board-banana">
-    <h2>👅 Tasting notes</h2>
+    <h2>🥊 Side-by-side comparison</h2>
 
-    <article class="cs-pouch" id="hatsu">
-      <div class="cs-pouch-head cs-p-hatsu">
-        <span class="cs-kanji" aria-hidden="true">初</span>
-        <h3>Hatsu matcha<small>Uji, Kyoto · 40g</small></h3>
+    <div class="cs-round">
+      <div class="cs-round-head"><span>Round 1</span><h3>Powder colour</h3></div>
+      <div class="cs-vs">
+        <div class="cs-vs-light"><strong><span class="cs-swatch-dot" style="background:#C98E45;color:#7A4B16;"></span>Naoki Classic Roast</strong><p>Warm golden brown.</p></div>
+        <div class="cs-vs-dark"><strong><span class="cs-swatch-dot" style="background:#6B4128;color:#F2C98A;"></span>Sundays Kuma</strong><p>Deeper cocoa brown. Close at a glance, but clearly darker side by side.</p></div>
       </div>
-      <div class="cs-pouch-body">
-        <p>The biggest surprise of the trio. Uji matchas usually lean vegetal or marine, but Hatsu has a pleasant, unexpectedly roasty warmth while staying smooth and well balanced, which makes it an easy pick for an everyday iced latte.</p>
-        <ul class="cs-chips" aria-label="Tasting notes"><li>Unexpectedly roasty</li><li>Smooth</li><li>Balanced</li></ul>
-        <dl>
-          <dt>Best for</dt><dd>Easy-drinking everyday matcha</dd>
-          <dt>Pouch</dt><dd>White matte with a purple-maroon wave</dd>
-        </dl>
-      </div>
-    </article>
+    </div>
 
-    <article class="cs-pouch" id="roku">
-      <div class="cs-pouch-head cs-p-roku">
-        <span class="cs-kanji" aria-hidden="true">六</span>
-        <h3>Roku matcha<small>Yame, Fukuoka · 40g</small></h3>
-        <span class="cs-approved">🍌 Minion Approved</span>
+    <div class="cs-round">
+      <div class="cs-round-head"><span>Round 2</span><h3>Whisked microfoam</h3></div>
+      <div class="cs-vs">
+        <div class="cs-vs-light"><strong>Naoki Classic Roast <span class="cs-win">More froth</span></strong><p>Thicker foam, thanks to more natural saponins.</p></div>
+        <div class="cs-vs-dark"><strong>Sundays Kuma</strong><p>Less froth, as the deeper roast leaves fewer saponins.</p></div>
       </div>
-      <div class="cs-pouch-body">
-        <p>If you have a soft spot for Yame matcha, Roku delivers right on cue. It whisks into a glossy emerald microfoam and brings that signature nutty, creamy richness, shining through milk with no harsh astringency.</p>
-        <ul class="cs-chips" aria-label="Tasting notes"><li>Nutty</li><li>Creamy</li><li>Rich microfoam</li></ul>
-        <dl>
-          <dt>Best for</dt><dd>Yame matcha fans</dd>
-          <dt>Pouch</dt><dd>Navy matte with a teal wave</dd>
-        </dl>
-        <p class="cs-pouch-link">🌿 More Yame: I blind-tested four single-cultivar Yame matchas in <a href="/2026/05/11/naoki-limited-edition-yame-single-cultivar-matcha-set-review.html">Naoki's Limited Edition Yame Set</a>.</p>
-      </div>
-    </article>
+    </div>
 
-    <article class="cs-pouch" id="house-roast">
-      <div class="cs-pouch-head cs-p-hoji">
-        <span class="cs-kanji" aria-hidden="true">焙</span>
-        <h3>House Roast hojicha<small>Japan · 40g</small></h3>
+    <div class="cs-round">
+      <div class="cs-round-head"><span>Round 3</span><h3>Iced latte flavour</h3></div>
+      <div class="cs-vs">
+        <div class="cs-vs-light"><strong>Naoki Classic Roast</strong><p>Gentle, nutty, almost kinako-like.</p></div>
+        <div class="cs-vs-dark"><strong>Sundays Kuma</strong><p>Bold dark chocolate notes with a coffee-like body.</p></div>
       </div>
-      <div class="cs-pouch-body">
-        <p>Boldly smoky and chocolatey from the first sip. When a late-afternoon or evening hojicha craving hits, this dark, aromatic roast cuts cleanly through cold milk for a comforting, cocoa-toned latte.</p>
-        <ul class="cs-chips" aria-label="Tasting notes"><li>Smoky</li><li>Chocolatey</li><li>Full-bodied</li></ul>
-        <dl>
-          <dt>Best for</dt><dd>Deep hojicha latte cravings</dd>
-          <dt>Pouch</dt><dd>Dark brown matte with a rust-red wave</dd>
-        </dl>
-        <p class="cs-pouch-link">🍂 Prefer a lighter roast? See <a href="/2025/12/28/naoki-hojicha-powder-light-vs-dark-roast-comparison.html">Naoki's Classic Roast Hojicha vs a dark roast</a>.</p>
+    </div>
+
+    <div class="cs-round">
+      <div class="cs-round-head"><span>Verdict</span><h3>Best for</h3></div>
+      <div class="cs-vs">
+        <div class="cs-vs-light"><strong>Naoki Classic Roast</strong><p>Milk tea lovers.</p></div>
+        <div class="cs-vs-dark"><strong>Sundays Kuma</strong><p>Roasted oolong and coffee fans.</p></div>
       </div>
-    </article>
+    </div>
   </section>
 
-  <!-- Comparison -->
-  <section class="cs-info">
-    <h2>Side-by-side lineup</h2>
-    <div class="cs-table-wrap">
-      <table class="cs-table cs-table-jp">
-        <thead>
-          <tr><td></td><th scope="col">Hatsu 初</th><th scope="col">Roku 六</th><th scope="col">House Roast 焙</th></tr>
-        </thead>
-        <tbody>
-          <tr><th scope="row">Type</th><td>Matcha</td><td>Matcha</td><td>Hojicha</td></tr>
-          <tr><th scope="row">Origin</th><td>Uji, Kyoto</td><td>Yame, Fukuoka</td><td>Japan</td></tr>
-          <tr><th scope="row">Net weight</th><td>40g (1.4 oz)</td><td>40g (1.4 oz)</td><td>40g (1.4 oz)</td></tr>
-          <tr><th scope="row">Flavour</th><td>Unexpectedly roasty, smooth, balanced</td><td>Nutty, creamy, rich microfoam</td><td>Smoky, chocolatey, full-bodied</td></tr>
-          <tr><th scope="row">Best for</th><td>Everyday matcha</td><td>Yame fans 🍌</td><td>Hojicha latte cravings</td></tr>
-        </tbody>
-      </table>
+  <!-- Detailed notes -->
+  <section class="cs-board cs-board-matcha">
+    <h2>📝 Tasting notes</h2>
+
+    <div class="cs-special cs-special-light" id="team-light">
+      <div class="cs-special-head"><h4>Naoki Matcha Classic Roast Hojicha Powder</h4><span class="cs-tag">Team Light Roast</span></div>
+      <div class="cs-tag-row"><span class="cs-tag">50g resealable pouch</span><span class="cs-tag">3g per cup</span></div>
+      <p><strong>Visuals & whisking:</strong> right out of the pouch, it's a warm golden brown. Whisked with water, it builds noticeably thicker froth than deep-roast powders, because the lighter roast preserves more of the leaf's natural foaming agents.</p>
+      <p style="margin-top:8px;"><strong>Taste:</strong> over ice and milk, the cup is gentle, nutty and almost kinako-like, reminiscent of toasted soybean flour. It never overwhelms the milk, making it the clear winner for milk tea lovers after a comforting, creamy daily latte.</p>
+      <ul class="cs-chips" aria-label="Tasting notes"><li>Gentle</li><li>Nutty</li><li>Kinako-like</li></ul>
     </div>
+
+    <div class="cs-special cs-special-dark" id="team-dark">
+      <div class="cs-special-head"><h4>Sundays Kuma Hojicha</h4><span class="cs-tag">Team Dark Roast</span></div>
+      <div class="cs-tag-row"><span class="cs-tag">30g jar</span><span class="cs-tag">Deep roast</span></div>
+      <p><strong>Visuals & whisking:</strong> the dry powder looks surprisingly close to Naoki's at a glance, but side by side it's a deeper, darker brown.</p>
+      <p style="margin-top:8px;"><strong>Taste:</strong> with the exact same milk and tea ratio, the dark roast gives a bold, intense cup. Ideal for roasted oolong fans and espresso drinkers looking for a low-caffeine kick.</p>
+      <ul class="cs-chips" aria-label="Tasting notes"><li>Bold</li><li>Dark chocolate</li><li>Coffee-like body</li></ul>
+    </div>
+
+    <p class="cs-note">🍫 <strong>Team Dark Roast but loyal to Naoki?</strong> Their smoky, chocolatey <a href="/2026/04/26/naoki-matcha-japan-hatsu-roku-house-roast-hojicha-review.html">House Roast Hojicha from the Japan Series</a> is the darker option.</p>
+  </section>
+
+  <!-- Tea science -->
+  <section class="cs-board cs-board-banana">
+    <h2>🔬 Tea science: why hojicha foams less than matcha</h2>
+    <p class="cs-lede">Whisked hojicha never builds the same dense microfoam as ceremonial matcha. It comes down to <strong>saponins</strong>, the natural foaming compounds in green tea leaves. The more the leaves are roasted, the more saponins break down.</p>
+    <ol class="cs-foam">
+      <li>
+        <div class="cs-cup"><div class="cs-cup-foam" style="height:52px;"></div><div class="cs-cup-tea" style="background:#7FA03A;"></div></div>
+        <div class="cs-foam-body"><span class="cs-foam-level">Rich foam</span><strong>Unroasted matcha</strong><p>Keeps its natural saponins, so it whips into a rich, stable microfoam.</p></div>
+      </li>
+      <li>
+        <div class="cs-cup"><div class="cs-cup-foam" style="height:26px;"></div><div class="cs-cup-tea" style="background:#C98E45;"></div></div>
+        <div class="cs-foam-body"><span class="cs-foam-level">Moderate foam</span><strong>Light roast hojicha</strong><p>Naoki Classic Roast. Roasting starts breaking down saponins, giving a lighter froth.</p></div>
+      </li>
+      <li>
+        <div class="cs-cup"><div class="cs-cup-foam" style="height:8px;"></div><div class="cs-cup-tea" style="background:#6B4128;"></div></div>
+        <div class="cs-foam-body"><span class="cs-foam-level">Minimal foam</span><strong>Dark roast hojicha</strong><p>Sundays Kuma. Extended deep roasting breaks down most saponins, so even vigorous whisking makes little foam.</p></div>
+      </li>
+    </ol>
   </section>
 
 
@@ -594,8 +582,8 @@ date: 2026-04-26
       <li class="cs-rel-new"><a href="/2026/11/20/naoki-tenth-harvest-matcha-masters-collection-review.html"><span class="cs-rel-date"><span><strong>20</strong><span>Nov 26</span></span></span><span><span class="cs-rel-title">Naoki Tenth Harvest Matcha Review (Masters Collection)<span class="cs-rel-new-tag">Newest</span></span><span class="cs-rel-blurb">A one-time Okumidori × Saemidori release, with only 200 tins for Singapore.</span></span></a></li>
       <li><a href="/2026/08/31/naoki-uji-harmony-2-0-matcha-review.html"><span class="cs-rel-date"><span><strong>31</strong><span>Aug 26</span></span></span><span><span class="cs-rel-title">Naoki Uji Harmony 2.0 Review: 5-Cultivar Uji Matcha</span><span class="cs-rel-blurb">Five Uji cultivars in an iced dairy latte, with a bitter dark-chocolate finish.</span></span></a></li>
       <li><a href="/2026/05/11/naoki-limited-edition-yame-single-cultivar-matcha-set-review.html"><span class="cs-rel-date"><span><strong>11</strong><span>May 26</span></span></span><span><span class="cs-rel-title">Naoki Limited Edition Yame Single-Cultivar Matcha Set Review</span><span class="cs-rel-blurb">Kirari 31, Okumidori, Seimei & Yabukita in a 4-cultivar blind latte test.</span></span></a></li>
+      <li><a href="/2026/04/26/naoki-matcha-japan-hatsu-roku-house-roast-hojicha-review.html"><span class="cs-rel-date"><span><strong>26</strong><span>Apr 26</span></span></span><span><span class="cs-rel-title">Naoki Matcha Japan Series: Hatsu, Roku & House Roast Hojicha</span><span class="cs-rel-blurb">Uji vs Yame matcha, plus a smoky, chocolatey hojicha.</span></span></a></li>
       <li><a href="/2026/03/25/naoki-matcha-barista-pro-blend-home-pop-up-review.html"><span class="cs-rel-date"><span><strong>25</strong><span>Mar 26</span></span></span><span><span class="cs-rel-title">Naoki Matcha Barista Pro Blend Review</span><span class="cs-rel-blurb">The first-harvest Uji blend that holds up in milk and fruit purees at a home pop-up.</span></span></a></li>
-      <li><a href="/2025/12/28/naoki-hojicha-powder-light-vs-dark-roast-comparison.html"><span class="cs-rel-date"><span><strong>28</strong><span>Dec 25</span></span></span><span><span class="cs-rel-title">Naoki Hojicha Powder Review: Light vs Dark Roast</span><span class="cs-rel-blurb">Naoki Classic Roast vs Sundays Kuma in an iced hojicha latte.</span></span></a></li>
       <li><a href="/2025/11/23/naoki-organic-matcha-blend-l-plus-review.html"><span class="cs-rel-date"><span><strong>23</strong><span>Nov 25</span></span></span><span><span class="cs-rel-title">Naoki Organic Matcha Blend L+ Review</span><span class="cs-rel-blurb">A ~50kg limited-edition Uji micro-lot, tested as an iced Bonsoy latte.</span></span></a></li>
     </ul>
   </section>
