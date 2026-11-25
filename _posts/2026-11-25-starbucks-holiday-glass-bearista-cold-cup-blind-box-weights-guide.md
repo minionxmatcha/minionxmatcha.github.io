@@ -414,7 +414,7 @@ date: 2026-11-25
     {
       "@type": "VideoObject",
       "name": "Crack the Starbucks Bearista Code: Glass Bearista Cold Cup Blind Box Weights",
-      "description": "Box weights, squish test, and Singapore outlet stock tips for finding Reiny, Aspen, Bunny, Joy, and Secret Goldie in the Limited Edition Starbucks Holiday Glass Bearista Cold Cup Surprise Box.",
+      "description": "Box weights and Singapore outlet stock tips for finding Reiny, Aspen, Bunny, Joy, and Secret Goldie in the Limited Edition Starbucks Holiday Glass Bearista Cold Cup Surprise Box.",
       "thumbnailUrl": [
         "https://img.youtube.com/vi/T1TamvdvvrQ/hqdefault.jpg"
       ],
@@ -466,7 +466,7 @@ date: 2026-11-25
   <p class="cs-crosslink">⚠️ <strong>Blind box purists, scroll away!</strong> This post reveals how to tell the designs apart before you buy.</p>
 
   <p>The Minions went bear hunting in Singapore with a pocket scale to crack the <strong>Limited Edition Starbucks Holiday Glass Bearista Cold Cup Surprise Box</strong> ($45.90, 20 fl oz / 591 ml), and pulled <strong>Reiny</strong> on the first try.</p>
-  <p>Here's the complete box weight chart, the squish test, and a Singapore outlet stock tip so you can hunt down your favourite Bearista.</p>
+  <p>Here's the complete box weight chart and a Singapore outlet stock tip so you can hunt down your favourite Bearista.</p>
 
   <!-- Video -->
   <section class="cs-video">
@@ -503,7 +503,7 @@ date: 2026-11-25
       <li class="cs-w-light">
         <div class="cs-w-top"><span class="cs-w-name">🦌 Reiny</span><span class="cs-tag">Reindeer</span><span class="cs-w-num">453.3g</span></div>
         <div class="cs-w-bar" role="img" aria-label="453.3 grams"><span style="width:25%"></span></div>
-        <p><strong>Lightest box.</strong> The only Bearista with a <strong>soft plush fabric hat</strong>, so it passes the squish test. Comes with a "North Pole" sign straw.<span class="cs-w-mine">My scale read 459.4g for my Reiny.</span></p>
+        <p><strong>Lightest box.</strong> The only Bearista with a <strong>soft plush fabric hat</strong>. Comes with a "North Pole" sign straw.<span class="cs-w-mine">My scale read 459.4g for my Reiny.</span></p>
       </li>
       <li>
         <div class="cs-w-top"><span class="cs-w-name">⛷️ Aspen</span><span class="cs-tag">Skiing</span><span class="cs-w-num">520.6g</span></div>
@@ -530,15 +530,11 @@ date: 2026-11-25
 
   <!-- Tips -->
   <section class="cs-board cs-board-banana">
-    <h2>🔍 3 tips for hunting your Bearista</h2>
+    <h2>🔍 2 tips for hunting your Bearista</h2>
     <ol class="cs-steps">
       <li>
         <h4>Look for the weight gap, not an exact decimal</h4>
         <p>Pocket scales and packaging glue vary a little from box to box. @pengo3dp recorded 453.3g for Reiny, while my scale read 459.4g. Instead of chasing an exact number, weigh a few boxes on the shelf and look for the <strong>gap of 60g or more</strong> between Reiny (about 453g to 460g) and the solid-hat designs (520g to 602g).</p>
-      </li>
-      <li>
-        <h4>Try the gentle squish test <span class="cs-tag">For Reiny</span></h4>
-        <p>Reiny is the only figure wearing a <strong>soft fabric reindeer hat</strong> instead of a rigid plastic one. Gently press the top centre of the box: Reiny gives a slight soft cushion, while Aspen, Bunny and Joy feel hard.</p>
       </li>
       <li>
         <h4>Ask the baristas about stock</h4>
